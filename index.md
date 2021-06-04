@@ -2,7 +2,10 @@
 
 ## tool
 [集装箱](https://a.newday.me)
+
+
 [沙拉查词](https://saladict.crimx.com/)
+
 [flomo](https://flomoapp.com/mine)
 
 
@@ -13,7 +16,10 @@
 
 ## 上手其他人电脑要装的插件
 1.[ublock](https://www.crx4chrome.com/crx/31931/)
+
 2.[tampermonkey](https://www.crx4chrome.com/crx/755/)
+
 2.1[greasy fork](https://greasyfork.org/zh-CN)
+
 >推荐的脚本
 >
