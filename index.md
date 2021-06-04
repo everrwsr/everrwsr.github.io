@@ -11,3 +11,7 @@
 
 [物理实验](http://aryun.ustcori.com/login?port=6382)
 
+## 上手其他人电脑要装的插件
+1.[ublock]{https://www.crx4chrome.com/crx/31931/}
+2.[tampermonkey]{https://www.crx4chrome.com/crx/755/}
+2.1[greasy fork]{https://www.crx4chrome.com/crx/755/}
