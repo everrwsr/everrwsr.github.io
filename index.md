@@ -15,3 +15,5 @@
 1.[ublock](https://www.crx4chrome.com/crx/31931/)
 2.[tampermonkey](https://www.crx4chrome.com/crx/755/)
 2.1[greasy fork](https://greasyfork.org/zh-CN)
+>推荐的脚本
+>
