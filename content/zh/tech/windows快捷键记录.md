@@ -5,7 +5,12 @@ tags = ["windows"]
 slug = "windows-kuaijiejian"
 +++
 
+
+
+
 Windows 快捷键
+
+-----
 ctrl+c: 复制
 ctrl+v：粘贴
 ctrl+x：剪切
