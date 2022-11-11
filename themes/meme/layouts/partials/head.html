@@ -1,5 +1,7 @@
 <head{{ if .Site.Params.openGraph }} prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#"{{ end }}>
     <meta charset="UTF-8" />
+    <meta name="referrer" content="no-referrer">
+
 
     {{ hugo.Generator }}
 
@@ -66,6 +68,7 @@
     <meta name="msapplication-TileColor" content="{{ $msApplicationTileColor }}" />
     <meta name="msapplication-TileImage" content="{{ $msApplicationTileImage }}" />
     <link rel="manifest" href="{{ $manifest | relURL }}" />
+
 
     <!-- Atom / RSS -->
     {{ with .OutputFormats.Get "SectionsAtom" -}}
