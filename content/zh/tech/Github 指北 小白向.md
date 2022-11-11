@@ -5,6 +5,9 @@ tags = ["github"]
 slug = "github-tutorial-for-nobody"
 +++
 
+
+
+
 # 前言
 
         关于github的教程网上有很多，但现在已经是2022年了,  我为什么还要再写一篇教程呢？有以下原因。
@@ -21,7 +24,7 @@ slug = "github-tutorial-for-nobody"
 > GitHub 是一个版本控制和协作的代码管理平台。它可以让你和他人在任何地点一起进行项目工作。
 
 是不是比较懵，那就看看下面这张图。
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/906866/1650519277647-5c832c79-1b98-4bc6-8132-bc64fe4ea035.png)
+![image.png](/images/f1.png)
 （图片来源 [GitHub 是怎样的一个存在？ - Deep Reader 的回答](https://www.zhihu.com/question/28976652/answer/42804737) ）
 
 在此之前，Github 是由 Tom 与 Chris 在本地程序员聚会中，开始的一个用于托管 git 的项目。正如每个伟大的传奇都开始于一场冒险，Tom 在这篇文章我如何辞掉微软 30 万年薪邀约，创办 GitHub 中谈到：
@@ -316,3 +319,6 @@ git 的教程可用看我另外一篇文章，本篇是写给小白的，尽最�
 前人走过无数次的弯路，后人何必再走啊。
 
 ###
+
+
+[pdf版本](/uploads/Github 指北 小白向.pdf)
