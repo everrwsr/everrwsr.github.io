@@ -937,12 +937,12 @@ uglyURLs = false
     #      (~/blog/static/images/meme.jpg)
 
     # 是否开启
-    enableImageHost = true
+    enableImageHost = false
     # 图片外链地址
     imageHostURL = "https://example.com/"
 
     # 是否将 HTML 的头部元数据中的图片链接也替换为外链
-    headAlso = true
+    headAlso = false
 
 
 
