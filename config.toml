@@ -254,6 +254,11 @@ uglyURLs = false
         name = "工具"
         weight = 4
         pre = "external"
+    [[menu.main]]
+        url = "https://www.yuque.com/u693751/woygo8"
+        name = "笔记"
+        weight = 4
+        pre = "external"
     ## 首页的底部链接
     # [[menu.home]]
     #     pageref = "/life/"
