@@ -256,9 +256,15 @@ uglyURLs = false
         pre = "external"
     [[menu.main]]
         url = "https://www.yuque.com/u693751/woygo8"
-        name = "笔记"
+        name = "语雀"
         weight = 4
         pre = "external"
+    [[menu.main]]
+        url = "https://hanbingbiji.netlify.app/"
+        name = "Obsidian笔记"
+        weight = 4
+        pre = "external"
+
     ## 首页的底部链接
     # [[menu.home]]
     #     pageref = "/life/"
