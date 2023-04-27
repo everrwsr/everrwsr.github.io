@@ -219,7 +219,7 @@ uglyURLs = false
     #     pre = "internal"
     #     post = "user-circle"
     [[menu.main]]
-        weight = 6
+        weight = 7
         identifier = "theme-switcher"
     [[menu.main]]
         weight = 7
