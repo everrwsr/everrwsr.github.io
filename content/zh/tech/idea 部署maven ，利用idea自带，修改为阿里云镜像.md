@@ -1,6 +1,6 @@
 
 +++
-title = ""
+title = "idea 部署maven ，利用idea自带，修改为阿里云镜像"
 +++
 settings.xms
 ```
