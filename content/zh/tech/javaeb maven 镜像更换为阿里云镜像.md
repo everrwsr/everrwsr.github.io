@@ -1,3 +1,6 @@
++++
+title = "javaeb maven 镜像更换为阿里云镜像"
++++
 选中项目pom.xml文件，右键选择打开settings.xml配置
 [[javaweb的一些目录含义]]
 

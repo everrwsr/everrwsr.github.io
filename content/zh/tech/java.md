@@ -1,3 +1,7 @@
++++
+title = "javasomething"
++++
+
 ![java-0](https://everrwsr.github.io/tech/assets/java-0.png)
 ![java-1](https://everrwsr.github.io/tech/assets/java-1.png)
 ![java-2](https://everrwsr.github.io/tech/assets/java-2.png)
