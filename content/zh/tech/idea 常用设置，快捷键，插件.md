@@ -1,6 +1,6 @@
 +++
-title = "idea 设置"
-slug = "idea设置"
+title = "idea设置"
+date = "2022-04-01T18:18:21+08:00"
 +++
 
 
