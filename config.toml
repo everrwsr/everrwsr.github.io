@@ -46,8 +46,9 @@ uglyURLs = false
 
 # URL 结构
 [permalinks]
+    post = "/:title/"
     # categories = "/categories/:slug/"
-    tags = "/tags/:slug/"
+    tags = "/tags/"
 
 # 类别
 [taxonomies]

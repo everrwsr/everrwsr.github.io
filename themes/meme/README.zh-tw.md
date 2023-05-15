@@ -72,9 +72,9 @@ https://gohugo.io/getting-started/quick-start/
 
 ## 定製 MemE
 
-MemE 透過 Hugo 管道實現使用 SCSS 生成 CSS，而非靜態的 CSS 檔案，同時提供一個 [`_custom.scss`](https://github.com/reuixiy/hugo-theme-meme/blob/master/assets/scss/custom/_custom.scss) 檔案以供使用者定製。
+MemE 透過 Hugo 管道實現使用 SCSS 生成 CSS，而非靜態的 CSS 檔案，同時提供一個 [`_custom.scss`](https://github.com/reuixiy/hugo-theme-meme/blob/master/./assets/scss/custom/_custom.scss) 檔案以供使用者定製。
 
-直接新建一個 `~/blog/assets/scss/custom/_custom.scss` 並將你自己的樣式加入其中，就能覆蓋主題的 `~/blog/themes/meme/assets/scss/custom/_custom.scss` 檔案，且其會正確地被應用。
+直接新建一個 `~/blog/./assets/scss/custom/_custom.scss` 並將你自己的樣式加入其中，就能覆蓋主題的 `~/blog/themes/meme/./assets/scss/custom/_custom.scss` 檔案，且其會正確地被應用。
 
 事實上，在 Hugo 中你可以覆蓋主題的任何模板，見這個非官方的映象網頁：<https://gohugobrasil.netlify.com/themes/customizing/>
 
