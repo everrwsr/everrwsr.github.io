@@ -1,5 +1,6 @@
 +++
 title = "javasomething"
+date = "2021-05-01T18:18:21+08:00"
 +++
 
 ![java-0](https://everrwsr.github.io/tech/assets/java-0.png)

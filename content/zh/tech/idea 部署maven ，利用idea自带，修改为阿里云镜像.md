@@ -1,6 +1,7 @@
 
 +++
 title = "idea 部署maven ，利用idea自带，修改为阿里云镜像"
+date = "2022-05-12T18:18:21+08:00"
 +++
 settings.xms
 ```
