@@ -250,25 +250,25 @@ uglyURLs = false
         post = "user-circle"
         identifier = "about"
     [[menu.main]]
-        url = "https://wwn.lanzoul.com/b02owt9jg?password=1224"
-        name = "工具"
+        url = "https://everr-nav.netlify.app/"
+        name = "nav"
         weight = 4
         pre = "external"
-    [[menu.main]]
-        url = "https://www.yuque.com/u693751/woygo8"
-        name = "语雀"
-        weight = 5
-        pre = "external"
-    [[menu.main]]
-        url = "https://hanbingbiji.netlify.app/"
-        name = "Obsidian笔记"
-        weight = 6
-        pre = "external"
-    [[menu.main]]
-        url = "https://search.zhelper.net/?[{%22name%22:%22zhelperV5%22,%22url%22:%22https://api.v5.zhelper.net%22,%22type%22:%22full%22,%22sensitive%22:false,%22detail%22:true},{%22name%22:%22Mibooks(V4)%22,%22url%22:%22https://api.mibooks.tk%22,%22type%22:%22full%22,%22sensitive%22:false,%22detail%22:false},{%22name%22:%22Ylibrary%22,%22url%22:%22https://api.ylibrary.org%22,%22type%22:%22full%22,%22sensitive%22:false,%22detail%22:true},{%22name%22:%22bookpan%22,%22url%22:%22https://api.bookpan.net%22,%22type%22:%22light%22,%22sensitive%22:false,%22detail%22:true}]"
-        name = "zhelper搜书工具"
-        weight = 7
-        pre = "external"
+  #  [[menu.main]]
+       # url = "https://www.yuque.com/u693751/woygo8"
+      #  name = "语雀"
+     #   weight = 5
+    #    pre = "external"
+  #  [[menu.main]]
+  #      url = "https://hanbingbiji.netlify.app/"
+   #     name = "Obsidian笔记"
+    #    weight = 6
+     #   pre = "external"
+    #[[menu.main]]
+   #     url = "https://search.zhelper.net/?[{%22name%22:%22zhelperV5%22,%22url%22:%22https://api.v5.zhelper.net%22,%22type%22:%22full%22,%22sensitive%22:false,%22detail%22:true},{%22name%22:%22Mibooks(V4)%22,%22url%22:%22https://api.mibooks.tk%22,%22type%22:%22full%22,%22sensitive%22:false,%22detail%22:false},{%22name%22:%22Ylibrary%22,%22url%22:%22https://api.ylibrary.org%22,%22type%22:%22full%22,%22sensitive%22:false,%22detail%22:true},{%22name%22:%22bookpan%22,%22url%22:%22https://api.bookpan.net%22,%22type%22:%22light%22,%22sensitive%22:false,%22detail%22:true}]"
+    #    name = "zhelper搜书工具"
+   #     weight = 7
+  #      pre = "external"
     ## 首页的底部链接
     # [[menu.home]]
     #     pageref = "/life/"
