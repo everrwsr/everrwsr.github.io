@@ -1171,9 +1171,9 @@ uglyURLs = false
     #      的优先级高于此处
 
     # 仓库地址
-    repoURL = "https://github.com/everrwsr/memehugo"
+    repoURL = "https://github.com/everrwsr/everrwsr.github.io"
     # 编辑地址
-    repoEditURL = "https://github.com/everrwsr/memehugo/blob/master"
+    repoEditURL = "https://github.com/everrwsr/everrwsr.github.io/blob/main"
 
     # Git 的图标
     gitIcon = "code-branch"
