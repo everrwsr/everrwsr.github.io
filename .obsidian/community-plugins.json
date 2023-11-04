@@ -1,5 +1,6 @@
 [
   "quickadd",
   "obsidian-git",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-linter"
 ]
