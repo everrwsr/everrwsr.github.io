@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/hugo博客模板 2.md",
+                "file": "content/zh/life/nizaiganma.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Templates/hugo博客模板 2.md",
+                "file": "content/zh/life/nizaiganma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Templates/hugo博客模板 2.md",
+                "file": "content/zh/life/nizaiganma.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Templates/hugo博客模板 2.md"
+                "file": "content/zh/life/nizaiganma.md"
               }
             }
           },
@@ -170,8 +170,10 @@
   },
   "active": "05140d77564d1baa",
   "lastOpenFiles": [
-    "content/zh/life/nizaiganma.md",
+    "content/zh/life/承认痛苦.md",
+    "content/zh/life/_index.md",
     "_Templates/hugo博客模板 2.md",
+    "content/zh/life/nizaiganma.md",
     "content/zh/life/pastJustPast.md",
     "content/zh/life/ceshi.md",
     "content/zh/life/fdasf.md",
@@ -180,7 +182,6 @@
     "_Templates/hugo博客模板.md",
     "未命名.md",
     "未命名 1.md",
-    "content/zh/life/承认痛苦.md",
     "content/zh/life/自勉.md",
     "content/zh/life/心灵捕手摘录.md",
     "content/zh/life/工作.md",
@@ -193,7 +194,6 @@
     "content/zh/life/boke222.md",
     "content/zh/life/boke11.md",
     "content/zh/life/boke.md",
-    "content/zh/life/_index.md",
     "content/zh/life/dasf.md",
     "content/zh/life/ttttttttttt2222.md",
     "_Templates"
