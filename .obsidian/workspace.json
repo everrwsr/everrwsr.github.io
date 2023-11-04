@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/zh/life/tttttttt.md",
+                "file": "_Templates/hugo博客模板.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/zh/life/tttttttt.md",
+                "file": "_Templates/hugo博客模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/zh/life/tttttttt.md",
+                "file": "_Templates/hugo博客模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/zh/life/tttttttt.md"
+                "file": "_Templates/hugo博客模板.md"
               }
             }
           }
@@ -161,6 +161,9 @@
   },
   "active": "3c28b8e89ec2157d",
   "lastOpenFiles": [
+    "content/zh/life/pastJustPast.md",
+    "content/zh/life/tttttttt.md",
+    "content/zh/life/自勉.md",
     "_Templates/hugo博客模板.md",
     "content/zh/coldplay/_index.md",
     "content/zh/coldplay/yellow-live.md",
@@ -173,10 +176,7 @@
     "content/zh/tech/编译原理lex 记录.md",
     "content/zh/tech/编译原理第二次作业.md",
     "content/zh/tech/白嫖教程2.md",
-    "content/zh/life/pastJustPast.md",
-    "content/zh/life/tttttttt.md",
     "content/zh/life/ceshi222.md",
-    "content/zh/life/自勉.md",
     "content/zh/life/心灵捕手摘录.md",
     "content/zh/life/工作.md",
     "content/zh/life/_index.md",
