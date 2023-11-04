@@ -1,6 +1,6 @@
 +++
 title = "{{NAME}}" 
-date = "javasmoment().format(); "
+date = " "
 +++
 
 

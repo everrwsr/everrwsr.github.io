@@ -78,9 +78,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "84e6bc2e04ad4219",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Templates/hugo博客模板.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -207,13 +219,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9aaf530e280191b1",
+  "active": "84e6bc2e04ad4219",
   "lastOpenFiles": [
-    "content/zh/life/测试新的.md",
-    "_Templates/hugo博客模板.md",
-    "content/zh/life/fdafdfa.md",
-    "content/zh/life/pastJustPast.md",
+    "content/zh/life/_index.md",
     "content/zh/life/自勉.md",
+    "content/zh/life/pastJustPast.md",
+    "content/zh/life/fdafdfa.md",
+    "content/zh/life/dasf.md",
+    "未命名 1.md",
+    "_Templates/hugo博客模板.md",
+    "content/zh/life/测试新的.md",
     "content/zh/life/ttttttttttt2222.md",
     "未命名.md",
     "content/zh/life/tttttttt.md",
@@ -231,10 +246,7 @@
     "content/zh/life/ceshi222.md",
     "content/zh/life/心灵捕手摘录.md",
     "content/zh/life/工作.md",
-    "content/zh/life/_index.md",
     "ceshi.md",
-    "小测试.md",
-    "README.md",
     "_Templates"
   ]
 }
