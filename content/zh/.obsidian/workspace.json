@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "19883ba5a93001f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7d2be78c9910d41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87f38bb318f6bcd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tech/白嫖教程2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2154006cfec09a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tech/2022数学建模模拟三.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "26cbe627c29dc77e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "068bd89c308d2aef",
+    "type": "split",
+    "children": [
+      {
+        "id": "673d5101c5459964",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8547cd743a657e2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6142e652755a70c7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f7defebbb94a07d5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5b295169b82a95b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4c2a441bdcc8e42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efcc17224531beaa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "blog.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dbf1467979a1cf57",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "blog.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c5a58a0f517b41cc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0e23d8aea8f2fe20",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "blog.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "d8547cd743a657e2",
+  "lastOpenFiles": [
+    "tech/对自己看过比较好的资料的一个汇总.md",
+    "未命名.md",
+    "life/pastJustPast.md",
+    "life/自勉.md",
+    "life/心灵捕手摘录.md",
+    "life/工作.md",
+    "life/_index.md",
+    "coldplay/yellow-live.md",
+    "coldplay/yellow.md",
+    "coldplay/the-scientist-live.md",
+    "coldplay/the-scientist.md",
+    "coldplay/swallowed-in-the-sea-live.md",
+    "coldplay/paradise-live.md",
+    "coldplay/paradise.md",
+    "coldplay/fix-you-live.md",
+    "coldplay/_index.md",
+    "about/_index.md",
+    "blog.md",
+    "tech/2022数学建模模拟三.md",
+    "temple",
+    "tech/Markdown 使用方法.md",
+    "tech/白嫖教程2.md",
+    "tech/出去之后可以看什么.md",
+    "obs_sctipts/未命名.md",
+    "obs_sctipts/NewBlog.js",
+    "obs_sctipts",
+    "tech/编译原理lex 记录.md"
+  ]
+}

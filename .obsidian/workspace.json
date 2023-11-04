@@ -1,0 +1,159 @@
+{
+  "main": {
+    "id": "f5dd651f1692bf16",
+    "type": "split",
+    "children": [
+      {
+        "id": "402ca06b6870874a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd6b09b7dd4417e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/zh/coldplay/fix-you-live.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5b6e2d37d188782a",
+    "type": "split",
+    "children": [
+      {
+        "id": "708bb94fee292fa2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ac2353a095f325b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "20cc9d92e7ae8ebf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2b346363520b1f1e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cffd787d00551d25",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf0446056a0f93df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "076723509ad326cf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/zh/coldplay/fix-you-live.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d1215528aedf202e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/zh/coldplay/fix-you-live.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6e44e09f1b850923",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2a30ba6120004657",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/zh/coldplay/fix-you-live.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "3ac2353a095f325b",
+  "lastOpenFiles": [
+    "content/zh/未命名.md",
+    "content/zh/blog.md",
+    "_Templates/hugo博客模板.md",
+    "content/zh/tech/2022数学建模模拟三.md",
+    "archetypes/default.md",
+    "_Templates",
+    "content/en/about/_index.md"
+  ]
+}
