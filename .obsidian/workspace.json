@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/zh/life/承认痛苦.md",
+                "file": "_Templates/hugo博客模板 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/zh/life/承认痛苦.md",
+                "file": "_Templates/hugo博客模板 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/zh/life/承认痛苦.md",
+                "file": "_Templates/hugo博客模板 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/zh/life/承认痛苦.md"
+                "file": "_Templates/hugo博客模板 2.md"
               }
             }
           },
@@ -212,17 +212,19 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "08000959fcec6974",
   "lastOpenFiles": [
-    "content/zh/life/pastJustPast.md",
+    "_Templates/hugo博客模板.md",
+    "_Templates/hugo博客模板 2.md",
     "content/zh/life/承认痛苦.md",
+    "content/zh/life/pastJustPast.md",
     "content/zh/life/自勉.md",
     "content/zh/life/心灵捕手摘录.md",
     "content/zh/life/工作.md",
-    "_Templates/hugo博客模板.md",
     "content/zh/life/测试新的.md",
     "content/zh/life/dsad.md",
     "content/zh/life/fdafdfa.md",
@@ -242,7 +244,6 @@
     "content/zh/coldplay/_index.md",
     "content/zh/coldplay/yellow-live.md",
     "content/zh/coldplay/yellow.md",
-    "content/zh/coldplay/the-scientist.md",
     "_Templates"
   ]
 }
