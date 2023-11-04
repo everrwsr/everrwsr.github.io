@@ -1,11 +1,13 @@
 ---
 title: ceshi222
-tags: [life]
+tags:
+  - life
 date: 2023-11-04 14:31:05
-draft: true
+draft: false
 hideInList: false
 isTop: false
 feature: 
+published: "true"
 ---
 jdafjlkdajlfa
 dasfafafa
