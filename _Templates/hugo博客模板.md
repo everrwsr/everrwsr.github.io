@@ -1,9 +1,9 @@
----
-title:
-  "{ NAME }": 
-tags: 
-date:
-  "{ DATE:YYYY-MM-DD HH:mm:ss }": 
-published: "true"
----
++++
+title = "{{NAME}}" 
+date = "{{DATE:YYYY-MM-DD HH:mm:ss}}"
+slug = "zhai-lu-zi-mian"
++++
+
+
+
 

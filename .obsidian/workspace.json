@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "443bd5d3b9653bac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/zh/life/fdafdfa.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Templates/hugo博客模板.md",
+                "file": "content/zh/life/fdafdfa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Templates/hugo博客模板.md",
+                "file": "content/zh/life/fdafdfa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Templates/hugo博客模板.md"
+                "file": "content/zh/life/fdafdfa.md"
               }
             }
           }
@@ -183,12 +195,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "01ff0ad7b676b8f7",
+  "active": "443bd5d3b9653bac",
   "lastOpenFiles": [
-    "content/zh/life/ttttttttttt2222.md",
     "content/zh/life/pastJustPast.md",
-    "未命名.md",
+    "content/zh/life/ttttttttttt2222.md",
+    "content/zh/life/fdafdfa.md",
     "_Templates/hugo博客模板.md",
+    "未命名.md",
     "content/zh/life/tttttttt.md",
     "content/zh/life/自勉.md",
     "content/zh/coldplay/_index.md",
@@ -210,7 +223,6 @@
     "小测试.md",
     "README.md",
     "content/zh/未命名.md",
-    "content/zh/blog.md",
     "_Templates"
   ]
 }
