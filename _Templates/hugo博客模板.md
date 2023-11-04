@@ -1,6 +1,6 @@
 +++
 title = "{{NAME}}" 
-date = " {{DATE}"
+date = " {{date}}"
 +++
 
 
