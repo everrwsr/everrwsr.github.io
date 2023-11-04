@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "content/zh/life/pastJustPast.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "content/zh/life/pastJustPast.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "content/zh/life/pastJustPast.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "content/zh/life/pastJustPast.md"
               }
             }
           }
@@ -195,10 +195,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3ac2353a095f325b",
+  "active": "9aaf530e280191b1",
   "lastOpenFiles": [
     "_Templates/hugo博客模板.md",
     "content/zh/life/fdafdfa.md",
+    "content/zh/life/fdasf.md",
+    "README.md",
     "content/zh/life/pastJustPast.md",
     "content/zh/life/心灵捕手摘录.md",
     "未命名 1.md",
@@ -221,8 +223,6 @@
     "content/zh/coldplay/swallowed-in-the-sea-live.md",
     "content/zh/coldplay/paradise-live.md",
     "content/zh/coldplay/paradise.md",
-    "content/zh/coldplay/fix-you-live.md",
-    "content/zh/tech/编译原理lex 记录.md",
     "_Templates"
   ]
 }
