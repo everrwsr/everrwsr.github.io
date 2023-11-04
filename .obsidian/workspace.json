@@ -189,13 +189,21 @@
                 "file": "content/zh/life/承认痛苦.md"
               }
             }
+          },
+          {
+            "id": "d376966aee1624a8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
