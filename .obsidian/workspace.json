@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/zh/coldplay/fix-you-live.md",
+                "file": "content/zh/life/pastJustPast.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2491a25262cfd40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ceshi.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/zh/coldplay/fix-you-live.md",
+                "file": "ceshi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/zh/coldplay/fix-you-live.md",
+                "file": "ceshi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/zh/coldplay/fix-you-live.md"
+                "file": "ceshi.md"
               }
             }
           }
@@ -146,8 +159,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3ac2353a095f325b",
+  "active": "f2491a25262cfd40",
   "lastOpenFiles": [
+    "content/zh/life/pastJustPast.md",
+    "ceshi.md",
+    "小测试.md",
+    "content/zh/life/自勉.md",
+    "content/zh/life/心灵捕手摘录.md",
+    "content/zh/life/工作.md",
+    "README.md",
+    "content/zh/coldplay/fix-you-live.md",
+    "未命名.md",
     "content/zh/未命名.md",
     "content/zh/blog.md",
     "_Templates/hugo博客模板.md",
