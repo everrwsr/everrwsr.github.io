@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/zh/life/pastJustPast.md",
+                "file": "_Templates/hugo博客模板.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/zh/life/pastJustPast.md",
+                "file": "_Templates/hugo博客模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/zh/life/pastJustPast.md",
+                "file": "_Templates/hugo博客模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/zh/life/pastJustPast.md"
+                "file": "_Templates/hugo博客模板.md"
               }
             }
           }
@@ -197,11 +197,11 @@
   },
   "active": "9aaf530e280191b1",
   "lastOpenFiles": [
+    "content/zh/life/pastJustPast.md",
     "_Templates/hugo博客模板.md",
     "content/zh/life/fdafdfa.md",
     "content/zh/life/fdasf.md",
     "README.md",
-    "content/zh/life/pastJustPast.md",
     "content/zh/life/心灵捕手摘录.md",
     "未命名 1.md",
     "未命名.md",
