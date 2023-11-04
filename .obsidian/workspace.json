@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e8e68b0b8b5e980d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/zh/life/tttttttt.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/zh/life/tttttttt.md",
+                "file": "_Templates/hugo博客模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/zh/life/tttttttt.md",
+                "file": "_Templates/hugo博客模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/zh/life/tttttttt.md"
+                "file": "_Templates/hugo博客模板.md"
               }
             }
           }
@@ -171,26 +159,34 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e8e68b0b8b5e980d",
+  "active": "3c28b8e89ec2157d",
   "lastOpenFiles": [
-    "_Templates/hugo博客模板.md",
+    "content/zh/coldplay/_index.md",
+    "content/zh/coldplay/yellow-live.md",
+    "content/zh/coldplay/yellow.md",
+    "content/zh/coldplay/the-scientist.md",
+    "content/zh/coldplay/swallowed-in-the-sea-live.md",
+    "content/zh/coldplay/paradise-live.md",
+    "content/zh/coldplay/paradise.md",
+    "content/zh/coldplay/fix-you-live.md",
+    "content/zh/tech/编译原理lex 记录.md",
+    "content/zh/tech/编译原理第二次作业.md",
+    "content/zh/tech/白嫖教程2.md",
+    "content/zh/life/pastJustPast.md",
     "content/zh/life/tttttttt.md",
+    "_Templates/hugo博客模板.md",
     "content/zh/life/ceshi222.md",
     "content/zh/life/自勉.md",
     "content/zh/life/心灵捕手摘录.md",
     "content/zh/life/工作.md",
     "content/zh/life/_index.md",
     "ceshi.md",
-    "content/zh/life/pastJustPast.md",
     "小测试.md",
     "README.md",
-    "content/zh/coldplay/fix-you-live.md",
     "未命名.md",
     "content/zh/未命名.md",
     "content/zh/blog.md",
     "content/zh/tech/2022数学建模模拟三.md",
-    "archetypes/default.md",
-    "_Templates",
-    "content/en/about/_index.md"
+    "_Templates"
   ]
 }
