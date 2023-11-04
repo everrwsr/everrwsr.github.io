@@ -61,14 +61,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/zh/life/fdafdfa.md",
+                "file": "_Templates/hugo博客模板.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9aaf530e280191b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/zh/life/测试新的.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/zh/life/fdafdfa.md",
+                "file": "content/zh/life/测试新的.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/zh/life/fdafdfa.md",
+                "file": "content/zh/life/测试新的.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/zh/life/fdafdfa.md"
+                "file": "content/zh/life/测试新的.md"
               }
             }
           }
@@ -195,13 +207,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "443bd5d3b9653bac",
+  "active": "9aaf530e280191b1",
   "lastOpenFiles": [
-    "content/zh/life/pastJustPast.md",
+    "_Templates/hugo博客模板.md",
+    "content/zh/life/测试新的.md",
     "content/zh/life/fdafdfa.md",
+    "content/zh/life/pastJustPast.md",
     "content/zh/life/自勉.md",
     "content/zh/life/ttttttttttt2222.md",
-    "_Templates/hugo博客模板.md",
     "未命名.md",
     "content/zh/life/tttttttt.md",
     "content/zh/coldplay/_index.md",
@@ -222,7 +235,6 @@
     "ceshi.md",
     "小测试.md",
     "README.md",
-    "content/zh/未命名.md",
     "_Templates"
   ]
 }

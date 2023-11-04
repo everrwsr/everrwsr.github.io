@@ -1,6 +1,6 @@
 +++
 title = "{{NAME}}" 
-date = "{{DATE:YYYY-MM-DD HH:mm:ss}}"
+date = "{{DATE}}"
 slug = "zhai-lu-zi-mian"
 +++
 
