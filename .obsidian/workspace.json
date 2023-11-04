@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/zh/life/自勉.md",
+                "file": "content/zh/life/pastJustPast.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/zh/life/自勉.md",
+                "file": "content/zh/life/pastJustPast.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/zh/life/自勉.md",
+                "file": "content/zh/life/pastJustPast.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/zh/life/自勉.md"
+                "file": "content/zh/life/pastJustPast.md"
               }
             }
           }
@@ -197,13 +197,16 @@
   },
   "active": "9aaf530e280191b1",
   "lastOpenFiles": [
-    "content/zh/life/dsad.md",
+    "content/zh/life/自勉.md",
+    "content/zh/life/心灵捕手摘录.md",
+    "content/zh/life/工作.md",
     "_Templates/hugo博客模板.md",
+    "content/zh/life/测试新的.md",
+    "content/zh/life/dsad.md",
     "content/zh/life/pastJustPast.md",
     "content/zh/life/fdafdfa.md",
     "content/zh/life/fdasf.md",
     "README.md",
-    "content/zh/life/心灵捕手摘录.md",
     "未命名 1.md",
     "未命名.md",
     "未命名 2.md",
@@ -212,9 +215,7 @@
     "content/zh/life/boke11.md",
     "content/zh/life/boke.md",
     "content/zh/life/_index.md",
-    "content/zh/life/自勉.md",
     "content/zh/life/dasf.md",
-    "content/zh/life/测试新的.md",
     "content/zh/life/ttttttttttt2222.md",
     "content/zh/life/tttttttt.md",
     "content/zh/coldplay/_index.md",
@@ -222,7 +223,6 @@
     "content/zh/coldplay/yellow.md",
     "content/zh/coldplay/the-scientist.md",
     "content/zh/coldplay/swallowed-in-the-sea-live.md",
-    "content/zh/coldplay/paradise-live.md",
     "_Templates"
   ]
 }
