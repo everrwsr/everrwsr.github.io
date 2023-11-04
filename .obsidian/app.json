@@ -1,5 +1,15 @@
 {
   "promptDelete": false,
   "newLinkFormat": "relative",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "userIgnoreFilters": [
+    "data/",
+    "assets/",
+    "layouts/",
+    "_Templates/",
+    "assets/",
+    "data/",
+    "themes/",
+    "data/"
+  ]
 }
