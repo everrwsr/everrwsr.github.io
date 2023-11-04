@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/zh/life/测试新的.md",
+                "file": "_Templates/hugo博客模板.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/zh/life/测试新的.md",
+                "file": "_Templates/hugo博客模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/zh/life/测试新的.md",
+                "file": "_Templates/hugo博客模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/zh/life/测试新的.md"
+                "file": "_Templates/hugo博客模板.md"
               }
             }
           }
@@ -209,8 +209,8 @@
   },
   "active": "9aaf530e280191b1",
   "lastOpenFiles": [
-    "_Templates/hugo博客模板.md",
     "content/zh/life/测试新的.md",
+    "_Templates/hugo博客模板.md",
     "content/zh/life/fdafdfa.md",
     "content/zh/life/pastJustPast.md",
     "content/zh/life/自勉.md",
