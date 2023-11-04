@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/hugo博客模板.md",
+                "file": "content/zh/life/自勉.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Templates/hugo博客模板.md",
+                "file": "content/zh/life/自勉.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Templates/hugo博客模板.md",
+                "file": "content/zh/life/自勉.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Templates/hugo博客模板.md"
+                "file": "content/zh/life/自勉.md"
               }
             }
           }
@@ -197,8 +197,9 @@
   },
   "active": "9aaf530e280191b1",
   "lastOpenFiles": [
-    "content/zh/life/pastJustPast.md",
+    "content/zh/life/dsad.md",
     "_Templates/hugo博客模板.md",
+    "content/zh/life/pastJustPast.md",
     "content/zh/life/fdafdfa.md",
     "content/zh/life/fdasf.md",
     "README.md",
@@ -222,7 +223,6 @@
     "content/zh/coldplay/the-scientist.md",
     "content/zh/coldplay/swallowed-in-the-sea-live.md",
     "content/zh/coldplay/paradise-live.md",
-    "content/zh/coldplay/paradise.md",
     "_Templates"
   ]
 }
