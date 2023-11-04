@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/zh/life/pastJustPast.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/zh/life/pastJustPast.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/zh/life/pastJustPast.md"
+                "file": "未命名.md"
               }
             }
           },
@@ -155,10 +153,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "dd6b09b7dd4417e9",
+  "active": "3ac2353a095f325b",
   "lastOpenFiles": [
-    "_Templates/hugo博客模板.md",
+    "未命名 1.md",
     "content/zh/life/pastJustPast.md",
+    "_Templates/hugo博客模板.md",
     "_Templates/hugo博客模板 2.md",
     "未命名.md",
     "content/zh/life/承认痛苦.md",
@@ -170,7 +169,6 @@
     "content/zh/life/fdafdfa.md",
     "content/zh/life/fdasf.md",
     "README.md",
-    "未命名 1.md",
     "未命名 2.md",
     "content/zh/life/df.md",
     "content/zh/life/boke222.md",
