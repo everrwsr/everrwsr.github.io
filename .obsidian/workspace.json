@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e8e68b0b8b5e980d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/zh/life/tttttttt.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Templates/hugo博客模板.md",
+                "file": "content/zh/life/tttttttt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Templates/hugo博客模板.md",
+                "file": "content/zh/life/tttttttt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Templates/hugo博客模板.md"
+                "file": "content/zh/life/tttttttt.md"
               }
             }
           }
@@ -159,13 +171,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3c28b8e89ec2157d",
+  "active": "e8e68b0b8b5e980d",
   "lastOpenFiles": [
-    "content/zh/life/自勉.md",
+    "_Templates/hugo博客模板.md",
+    "content/zh/life/tttttttt.md",
     "content/zh/life/ceshi222.md",
+    "content/zh/life/自勉.md",
     "content/zh/life/心灵捕手摘录.md",
     "content/zh/life/工作.md",
-    "_Templates/hugo博客模板.md",
     "content/zh/life/_index.md",
     "ceshi.md",
     "content/zh/life/pastJustPast.md",
