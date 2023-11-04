@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/hugo博客模板.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Templates/hugo博客模板.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Templates/hugo博客模板.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Templates/hugo博客模板.md"
+                "file": "README.md"
               }
             }
           }
@@ -195,12 +195,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9aaf530e280191b1",
+  "active": "3ac2353a095f325b",
   "lastOpenFiles": [
+    "_Templates/hugo博客模板.md",
     "content/zh/life/fdafdfa.md",
     "content/zh/life/pastJustPast.md",
     "content/zh/life/心灵捕手摘录.md",
-    "_Templates/hugo博客模板.md",
     "未命名 1.md",
     "未命名.md",
     "未命名 2.md",
