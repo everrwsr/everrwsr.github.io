@@ -18,69 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3c28b8e89ec2157d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Templates/hugo博客模板.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01ff0ad7b676b8f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Templates/hugo博客模板.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "443bd5d3b9653bac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Templates/hugo博客模板.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9aaf530e280191b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/zh/life/pastJustPast.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08000959fcec6974",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Templates/hugo博客模板 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Templates/hugo博客模板 2.md",
+                "file": "content/zh/life/pastJustPast.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Templates/hugo博客模板 2.md",
+                "file": "content/zh/life/pastJustPast.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Templates/hugo博客模板 2.md"
+                "file": "content/zh/life/pastJustPast.md"
               }
             }
           },
@@ -216,12 +155,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "08000959fcec6974",
+  "active": "dd6b09b7dd4417e9",
   "lastOpenFiles": [
     "_Templates/hugo博客模板.md",
-    "_Templates/hugo博客模板 2.md",
-    "content/zh/life/承认痛苦.md",
     "content/zh/life/pastJustPast.md",
+    "_Templates/hugo博客模板 2.md",
+    "未命名.md",
+    "content/zh/life/承认痛苦.md",
     "content/zh/life/自勉.md",
     "content/zh/life/心灵捕手摘录.md",
     "content/zh/life/工作.md",
@@ -231,7 +171,6 @@
     "content/zh/life/fdasf.md",
     "README.md",
     "未命名 1.md",
-    "未命名.md",
     "未命名 2.md",
     "content/zh/life/df.md",
     "content/zh/life/boke222.md",

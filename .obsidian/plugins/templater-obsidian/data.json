@@ -16,6 +16,10 @@
   "folder_templates": [
     {
       "folder": "content/zh/life",
+      "template": "_Templates/hugo博客模板 2.md"
+    },
+    {
+      "folder": "",
       "template": ""
     }
   ],
