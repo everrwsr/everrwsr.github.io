@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><title type="text">everr</title><subtitle type="html">这是 everr 的生活与技术博客！这个名字是为了纪念一段时光</subtitle><updated>2023-11-04T06:51:25+00:00</updated><id>https://everrwsr.github.io/</id><link rel="alternate" type="text/html" href="https://everrwsr.github.io/"/><link rel="self" type="application/atom+xml" href="https://everrwsr.github.io/atom.xml"/><author><name>everr</name><uri>https://everrwsr.github.io/</uri><email>everrwsr@outlook.com</email></author><rights>在保留本文作者及本文链接的前提下，非商业用途随意转载分享。</rights><generator uri="https://gohugo.io/" version="0.92.0">Hugo</generator><entry><title type="text">顶尖的技术和魔法无异------如何让自己快乐学习编程系列</title><link rel="alternate" type="text/html" href="https://everrwsr.github.io/tech/%E9%A1%B6%E5%B0%96%E7%9A%84%E6%8A%80%E6%9C%AF%E5%92%8C%E9%AD%94%E6%B3%95%E6%97%A0%E5%BC%82-%E5%A6%82%E4%BD%95%E8%AE%A9%E8%87%AA%E5%B7%B1%E5%BF%AB%E4%B9%90%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B%E7%B3%BB%E5%88%97/"/><id>https://everrwsr.github.io/tech/%E9%A1%B6%E5%B0%96%E7%9A%84%E6%8A%80%E6%9C%AF%E5%92%8C%E9%AD%94%E6%B3%95%E6%97%A0%E5%BC%82-%E5%A6%82%E4%BD%95%E8%AE%A9%E8%87%AA%E5%B7%B1%E5%BF%AB%E4%B9%90%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B%E7%B3%BB%E5%88%97/</id><updated>2023-11-04T06:51:23+00:00</updated><published>2023-02-13T18:22:21+08:00</published><author><name>everr</name><uri>https://everrwsr.github.io/</uri><email>everrwsr@outlook.com</email></author><rights>在保留本文作者及本文链接的前提下，非商业用途随意转载分享。</rights><summary type="html">在和朋友回顾各自的编程经历的过程中，发现不是所有人都会拥有感觉编程好有意思的一个，仪……</summary><content type="html">&lt;blockquote>
+&lt;p>在和朋友回顾各自的编程经历的过程中，发现不是所有人都会拥有感觉编程好有意思的一个，仪式感超强的一个朝圣时刻，我用一个不那么恰当的比喻形容一下，就是——
+当哈利波特知道魔法存在的那一刻，并且自己可以学习魔法的那一刻，神奇的魔法世界对他打开大门的那一刻，就是他的朝圣时刻。
+于是有了下面这些记录，零散串起我的朝圣时刻。
+毕竟 debug 实在是太烦了 ， 没有这些激励我的东西，我岂不是要当场退学。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="0-前言">0. 前言&lt;/h2>
+&lt;p>私以为计算机导论应该是带着新手总览整个计算机学科，从最古老，到现代我们创造的一切。而不是直接去学语言，学Word ,Excel PowerPoint ... 那不是计算机导论真正的任务。
+又到了我的奇奇怪怪比喻时间：
+如果把计算机的整个学习过程比作盖房子，那么学了两年的我们还是没有办法创造东西，盖出一个房子。
+因为你跟着老师学了两年打灰哈哈，你听老师说基础很重要，但是你对比一下不离谱吗，就好像你大学四年啊，是要学习怎么盖房子，然后你打灰打了两年，后面两年学烧砖，房梁设计，水电不知，装修，和开发商协商这些东西。能不赶嘛，甚至毕业都不一定学的完哈哈。
+好的计算机导论应该是简单带你改个房子，哪怕再小再差也是个房子，然后再学习如果更好的打灰，烧砖，水电，房梁设计。
+不见全貌的学习，不知道自己所学究竟有什么用的时候，很难坚持，更难觉得有趣。&lt;/p>
+&lt;hr>
+&lt;p>关于计算机世界的开发实际情况，可以看看我写的&lt;a href="https://www.yuque.com/u693751/woygo8/crw0d7">Github 指北 小白向&lt;/a>, 还有&lt;a href="https://www.yuque.com/u693751/woygo8/lwsvgs">git的教程_给狗子的限定版&lt;/a>&lt;/p>
+&lt;hr>
+&lt;blockquote>
+&lt;p>我衷心希望这篇文章能够带给读者一些新鲜的思考，让同学们能看到人生道路上不同的风景。至少在读过后，各位读者应该能够有勇气、有智慧，去发现并挑战那些比上课更为重要的追求。&lt;/p>
+&lt;/blockquote>
+&lt;p>以上来自一位学长的期许，他写的《上海交通大学生存手册》影响我很多，鼓励我去自己求知，去在国内僵硬的培养机制下自由探索，去解决真正的问题。
+&lt;a href="https://survivesjtu.gitbook.io/survivesjtumanual/xu/xu">上海交通大学生存手册&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h3 id="常用的工具系列">常用的工具系列&lt;/h3>
+&lt;blockquote>
+&lt;p>首先，这是一门出发点颇为有趣的课程：其他的CS课程往往会介绍一些更为“高级”或“理论”的内容，例如操作系统、数据库原理、机器学习深度学习等等，然而却几乎没有课程介绍一些极为“实用”的知识，即如何使用一些好用（能大大提高生产力）的工具，如terminal、编辑器editor、tmux、profiler、数据处理工具(如awk, sed, grep, perl）等等。而作为学生，大家（至少我）要么是靠同学、师长、同事推荐听说到这些工具，然后靠网上一些质量未必很高的tutorial去自学；要么是靠缘分去碰到这些工具；有的时候运气好点，会自己调研到好用的工具并学习。但总而言之，因为缺乏这方面的“系统化”的教育，我们往往需要走很多弯路才会培养出一个比较完善的武器库。更重要的是，当武器库中缺少某种武器的时候，我们甚至会认为碰到的某个任务是无法完成的，而这个任务实际上可以用针对它的“恐龙克星”轻松搞定。而6.NULL这门课的作用，就是教你一些常用且好用的武器，让它们成为你武器库中的一部分。&lt;/p>
+&lt;/blockquote>
+&lt;p>这个是课程官网，有讲义，还有习题，还有解答，都是中文&lt;/p>
+&lt;h2 id="1-计算机世界的全局纵览crash-course-computer-science">1. 计算机世界的全局纵览——Crash Course Computer Science&lt;/h2>
+&lt;p>我看过许多计算机导论的课程和书，侧重点各自不同，对于学习者的要求也不尽相同。Crash Course 系列以通俗易懂为特点，Computer Science 系列每集十分钟左右，讲解清晰，易懂，通俗性和专业性都有很好的考虑。从介绍计算机的历史，计算机的组成，计算机设计者们的思想，现代计算机的各个发展方向介绍计算机世界的全景。
+总共也就8小时，每节课10分钟左右。&lt;/p>
+&lt;hr>
+&lt;h2 id="2-真正的计算机导论--cs50">2. 真正的计算机导论 —— CS50&lt;/h2>
+&lt;p>论谈及计算机导论的第一，人们总是要在CS50 和MIT6.001 中左右徘徊。我个人更喜欢CS50 , 在不到48小时的课程里完成图形化语言Scratch , C 语言， 基本数据结构和基本算法，Python ,SQL ， HTML 等前端内容 ，网页开发框架 Flask。搭建一个现代意义上的网站有前端有后端有数据库，麻雀虽小五脏俱全。&lt;/p>
+&lt;blockquote>
+&lt;p>🎨 课程介绍：CS50是哈佛的一门计算机科学的导论性的课程，内容包括基本的计算机知识以及基础算法，常见的编程语言等等，还会探讨最新的计算机科学领域的成果，课程发散性思维强。CS50课程的讲课形式让人耳目一新，真正做到了“快乐学习”。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="3--完成了入门课程的你就需要diy-自己的学习之旅啦">3. 完成了入门课程的你，就需要DIY 自己的学习之旅啦&lt;/h2>
+&lt;p>让我向你隆重介绍这个cs自学指南，一个北大老哥自己自学了三年后，想要总结下自己的学习经历，给后人一个参考，建立了这个网站，贼全，贼方便，远比我上面介绍的全面深入，毕竟本篇文章和我的个人能力不够，并无心介绍CS自学的全部，我只希望我所写的东西，带君入门，领略到计算机的快乐哈哈。&lt;/p>
+&lt;h2 id="4-结语">4. 结语&lt;/h2>
+&lt;p>学计算机最快乐的时刻，那就是创造出自己的作品的那一刻，尤其是网站，我强烈安利大家按照我写的
+&lt;a href="https://www.yuque.com/u693751/woygo8/crw0d7">Github 指北 小白向&lt;/a>
+里面的内容建立一个属于自己的网站 Github Page 巨好用！！！！
+再进阶可以搜索Hexo ,Jekyll , Hugo 等静态站点成器，体会自己拥有一个酷炫网站的感觉哈哈。
+mkdocs 也行，也很好玩。&lt;/p>
+&lt;hr>
+&lt;p>熟悉了GitHub之后 ， 你就会知道什么是
+fork 的快乐 ---------- 你的代码很好，可下一秒就是我的啦。&lt;/p>
+&lt;p>.....
+后续再补，今天就到这里 ----2022.11.12&lt;/p></content><category scheme="https://everrwsr.github.io/tech/" term="tech" label="tech"/></entry><entry><title type="text">idea多模块相同解决办法+问大怨种备份</title><link rel="alternate" type="text/html" href="https://everrwsr.github.io/tech/idea%E5%A4%9A%E6%A8%A1%E5%9D%97%E7%9B%B8%E5%90%8C%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95+%E9%97%AE%E5%A4%A7%E6%80%A8%E7%A7%8D%E5%A4%87%E4%BB%BD/"/><id>https://everrwsr.github.io/tech/idea%E5%A4%9A%E6%A8%A1%E5%9D%97%E7%9B%B8%E5%90%8C%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95+%E9%97%AE%E5%A4%A7%E6%80%A8%E7%A7%8D%E5%A4%87%E4%BB%BD/</id><updated>2023-11-04T06:51:23+00:00</updated><published>2023-02-01T18:18:21+08:00</published><author><name>everr</name><uri>https://everrwsr.github.io/</uri><email>everrwsr@outlook.com</email></author><rights>在保留本文作者及本文链接的前提下，非商业用途随意转载分享。</rights><summary type="html">进入project structure 选中当前模块后 点击应用即可</summary><content type="html">&lt;p>进入project structure
+选中当前模块后
+点击应用即可&lt;/p></content><category scheme="https://everrwsr.github.io/tech/" term="tech" label="tech"/></entry><entry><title type="text">javaweb环境配置的种种</title><link rel="alternate" type="text/html" href="https://everrwsr.github.io/tech/xinlingbushou-zhailu/"/><id>https://everrwsr.github.io/tech/xinlingbushou-zhailu/</id><updated>2023-11-04T06:51:23+00:00</updated><published>2022-12-16T18:17:54+08:00</published><author><name>everr</name><uri>https://everrwsr.github.io/</uri><email>everrwsr@outlook.com</email></author><rights>在保留本文作者及本文链接的前提下，非商业用途随意转载分享。</rights><summary type="html">前言 因为最近很多人问，我不得不熟悉了一次次 javaweb 项目环境搭建和运行的全过程。 大多数人困惑……</summary><content type="html">&lt;h2 id="heading">&lt;/h2>
+&lt;h2 id="前言">前言&lt;/h2>
+&lt;blockquote>
+&lt;p>因为最近很多人问，我不得不熟悉了一次次 javaweb 项目环境搭建和运行的全过程。
+大多数人困惑和不习惯的点在于：
+javaweb 项目对比过去所学的简单的 C，C++，JAVA 项目，
+环境的搭建难度和复杂度上了一个台阶。
+初步入门所谓的工程化编程领域，诸多不适和不习惯是正常的，
+现代软件是大型合作工作，一个人写好所有的代码的时代远去了，你不得不使用其他人写的代码和框架，也就必须因此去理解和适应其他人的想法。这是痛苦的。
+在初入 javaweb 世界中，
+我曾有过这样无比困惑的阶段——&lt;/p>
+&lt;ul>
+&lt;li>那些反复安装就是不能运行的 mysql,&lt;/li>
+&lt;li>就是不能运行的 tomcat,&lt;/li>
+&lt;li>一直下载不下来的 jar 包，&lt;/li>
+&lt;li>龟爬一样的 maven 下载包速度。&lt;/li>
+&lt;li>在其他人电脑上能运行，就是我不能运行。&lt;/li>
+&lt;li>。。。&lt;/li>
+&lt;/ul>
+&lt;p>在此过程中：
+网上 csdn 的教程质量有高有低，我曾被教程坑过，也幸得大佬提点。
+我想汇总前辈优秀教程和我个人的一点浅见于此。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>前人走过的弯路，后人何必再走呢。
+2022.12.16 于华州&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="计划">计划&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> jdk 安装和配置&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> idea 旗舰版获取和使用&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> tomcat 配置和使用&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> maven 相关&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 如何运行其他人的 javaweb 项目&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> IDEA 自带的数据库工具&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> navicat 教程&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 如何修改网上其他人的项目图片&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 常见问题&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="更新日志">更新日志&lt;/h2>
+&lt;blockquote>
+&lt;p>2022.12.16
+为 jdk 都不晓得配置的刘某开始写了这篇教程
+涵盖 jdk,idea,tomcat , maven ,mysql 等配置环境的东西。
+2022.12.18&lt;br>
+文某看到原题目---关于 JAVAweb 环境配置的汇总------- 《为刘某，许某，李某等朋友而作，主要是刘某，问某应该不需要》，
+经问某要求---(直言自己怎么不需要啦)，
+故改名为------《关于 JAVAweb 环境配置的汇总 为刘某，许某，李某等朋友而作，主要是刘某，问某应该不需要,问某后来告诉我，她怎么不需要啦》
+问开始错写为文，文某要揍我，我当然是义正严词告诉她----“我错了，呜呜”
+不正经更新日志结束；
+正经更新日志为：
+添加 idea 自带数据库使用工具教程
+添加 navicat 安装和使用教程
+添加修改项目小技巧，sql 转 word 设计文档技巧
+2011.12.20
+添加更新修改项目小技巧，记得更改完成后开启浏览器无痕（隐私）模式，快捷键 ctrl+shift+n（因为浏览器会默认缓存上一次的图片和其他资源文件，开无痕是强制不缓存罢了）
+因为王某和一个刘某遇见了此问题，不得不更新下
+还有刘某告诉我她很认真看了好几遍，我很感动，随意写就的部分，她的态度好好，故更新了一部分。
+或许这个一开始随意起意的项目很值得发展哈哈&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="1jdk-8">1.JDK 8&lt;/h2>
+&lt;h2 id="2-idea-和-tomcat">2. IDEA 和 tomcat&lt;/h2>
+&lt;p>有 idea 时，可以简单解压 tomcat,不用太配置环境变量
+idea 会自动配置，非常好用！！！
+就可以直接使用 tomcat
+教程如下：
+资源如下：
+&lt;a href="https://everrwsr.github.io/tech/assets/apache-tomcat-8.5.82.zip">apache-tomcat-8.5.82.zip&lt;/a>
+西安财经大学学生可以按照我写的这个教程获取正版 IDEA，教育授权
+&lt;a href="https://www.yuque.com/u693751/woygo8/gtg8ry">IDEA 破解和正版路子&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h3 id="21-更换-maven-镜像为阿里云">2.1 更换 maven 镜像为阿里云&lt;/h3>
+&lt;p>如果项目存在 pom.xml
+并且半天 jar 包下不下来
+那么按照下面的步骤进行
+&lt;a href="https://www.yuque.com/u693751/woygo8/lhirszt4atrag2sv">javaeb maven 镜像更换为阿里云镜像&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>IDEA 社区版下载
+需要安装 smarttomcat 插件&lt;/p>
+&lt;h3 id="22-下载-smarttomcat-插件">2.2 下载 smartTomcat 插件&lt;/h3>
+&lt;p>&lt;img src="https://everrwsr.github.io/tech/assets/%E5%85%B3%E4%BA%8EJAVAweb%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E7%9A%84%E6%B1%87%E6%80%BB%20%E4%B8%BA%E5%88%98%E6%9F%90%EF%BC%8C%E8%AE%B8%E6%9F%90%EF%BC%8C%E6%9D%8E%E6%9F%90%E7%AD%89%E6%9C%8B%E5%8F%8B%E8%80%8C%E4%BD%9C%EF%BC%8C%E4%B8%BB%E8%A6%81%E6%98%AF%E5%88%98%E6%9F%90%EF%BC%8C%E9%97%AE%E6%9F%90%E5%BA%94%E8%AF%A5%E4%B8%8D%E9%9C%80%E8%A6%81,%E9%97%AE%E6%9F%90%E5%90%8E%E6%9D%A5%E5%91%8A%E8%AF%89%E6%88%91%EF%BC%8C%E5%A5%B9%E6%80%8E%E4%B9%88%E4%B8%8D%E9%9C%80%E8%A6%81%E5%95%A6-0.png" alt="关于JAVAweb环境配置的汇总%20为刘某，许某，李某等朋友而作，主要是刘某，问某应该不需要,问某后来告诉我，她怎么不需要啦-0">&lt;/p>
+&lt;h3 id="23-smarttomcat-的配置">2.3 smartTomcat 的配置&lt;/h3>
+&lt;p>&lt;img src="https://everrwsr.github.io/tech/assets/%E5%85%B3%E4%BA%8EJAVAweb%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E7%9A%84%E6%B1%87%E6%80%BB%20%E4%B8%BA%E5%88%98%E6%9F%90%EF%BC%8C%E8%AE%B8%E6%9F%90%EF%BC%8C%E6%9D%8E%E6%9F%90%E7%AD%89%E6%9C%8B%E5%8F%8B%E8%80%8C%E4%BD%9C%EF%BC%8C%E4%B8%BB%E8%A6%81%E6%98%AF%E5%88%98%E6%9F%90%EF%BC%8C%E9%97%AE%E6%9F%90%E5%BA%94%E8%AF%A5%E4%B8%8D%E9%9C%80%E8%A6%81,%E9%97%AE%E6%9F%90%E5%90%8E%E6%9D%A5%E5%91%8A%E8%AF%89%E6%88%91%EF%BC%8C%E5%A5%B9%E6%80%8E%E4%B9%88%E4%B8%8D%E9%9C%80%E8%A6%81%E5%95%A6-1.png" alt="关于JAVAweb环境配置的汇总%20为刘某，许某，李某等朋友而作，主要是刘某，问某应该不需要,问某后来告诉我，她怎么不需要啦-1">
+&lt;img src="https://everrwsr.github.io/tech/assets/%E5%85%B3%E4%BA%8EJAVAweb%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E7%9A%84%E6%B1%87%E6%80%BB%20%E4%B8%BA%E5%88%98%E6%9F%90%EF%BC%8C%E8%AE%B8%E6%9F%90%EF%BC%8C%E6%9D%8E%E6%9F%90%E7%AD%89%E6%9C%8B%E5%8F%8B%E8%80%8C%E4%BD%9C%EF%BC%8C%E4%B8%BB%E8%A6%81%E6%98%AF%E5%88%98%E6%9F%90%EF%BC%8C%E9%97%AE%E6%9F%90%E5%BA%94%E8%AF%A5%E4%B8%8D%E9%9C%80%E8%A6%81,%E9%97%AE%E6%9F%90%E5%90%8E%E6%9D%A5%E5%91%8A%E8%AF%89%E6%88%91%EF%BC%8C%E5%A5%B9%E6%80%8E%E4%B9%88%E4%B8%8D%E9%9C%80%E8%A6%81%E5%95%A6-2.png" alt="关于JAVAweb环境配置的汇总%20为刘某，许某，李某等朋友而作，主要是刘某，问某应该不需要,问某后来告诉我，她怎么不需要啦-2">
+这玩意要配置到 WEB-INF 才可以使用，&lt;/p>
+&lt;h2 id="3-数据库">3. 数据库&lt;/h2>
+&lt;p>本人推荐 MYSQL5.7
+安装新版本 mysql 前请务必确认成功
+&lt;strong>完全&lt;/strong>卸载老版本 mysql 和残留文件和注册表信息。
+卸载教程&lt;/p>
+&lt;p>安装 mysql 5.7 看这里
+&lt;a href="https://www.yuque.com/u693751/woygo8/eg2ly9t6xl29wi45">MYSQl5.7 安装教程&lt;/a>
+下载方式：&lt;/p>
+&lt;ol>
+&lt;li>官网下载&lt;/li>
+&lt;li>我曾经一老师发过的凑合版本&lt;/li>
+&lt;/ol>
+&lt;p>&lt;a href="https://everrwsr.github.io/tech/assets/MySQL556_jb51.zip">MySQL556_jb51.zip&lt;/a>&lt;/p>
+&lt;ol start="3">
+&lt;li>官网我下载的版本。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;a href="https://everrwsr.github.io/tech/assets/mysql-5.7.24-winx64.zip">mysql-5.7.24-winx64.zip&lt;/a>&lt;/p>
+&lt;h4 id="31-navicat-教程">3.1 navicat 教程&lt;/h4>
+&lt;p>断开网络连接那一步
+可以通过修改 host 解决
+添加 127.0.0.1 activate.navicat.com 达到屏蔽 Navicat 激活联网&lt;/p>
+&lt;hr>
+&lt;h4 id="32-idea-自带数据库">3.2 idea 自带数据库&lt;/h4>
+&lt;p>教程如下&lt;/p>
+&lt;h2 id="4-如何运行-javaweb-项目">4. 如何运行 javaweb 项目&lt;/h2>
+&lt;p>怎么说呢，这是个很大的概念。
+总结下来大致步骤如下&lt;/p>
+&lt;ol>
+&lt;li>修改 jdbc 设置，数据库，用户名，密码，端口等&lt;/li>
+&lt;li>导入 sql 文件&lt;/li>
+&lt;li>配置项目结构，和 Tomcat 等服务器&lt;/li>
+&lt;li>运行。&lt;/li>
+&lt;/ol>
+&lt;p>可以参考的文档：&lt;/p>
+&lt;h4 id="41-修改项目小技巧更换图片和其他">4.1 修改项目小技巧（更换图片和其他）：&lt;/h4>
+&lt;ol>
+&lt;li>通过 IDEA 快捷键 Ctrl+Shift+r 或这点击 Edit 》Find 》Replace In Path,请活用哈哈，在网页上看到啥去项目里搜索替换&lt;/li>
+&lt;li>修改网页背景图片，用同名文件替代或删除,记住更换后，点击重新运行&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>&lt;img src="https://everrwsr.github.io/tech/assets/%E5%85%B3%E4%BA%8EJAVAweb%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E7%9A%84%E6%B1%87%E6%80%BB%20%E4%B8%BA%E5%88%98%E6%9F%90%EF%BC%8C%E8%AE%B8%E6%9F%90%EF%BC%8C%E6%9D%8E%E6%9F%90%E7%AD%89%E6%9C%8B%E5%8F%8B%E8%80%8C%E4%BD%9C%EF%BC%8C%E4%B8%BB%E8%A6%81%E6%98%AF%E5%88%98%E6%9F%90%EF%BC%8C%E9%97%AE%E6%9F%90%E5%BA%94%E8%AF%A5%E4%B8%8D%E9%9C%80%E8%A6%81,%E9%97%AE%E6%9F%90%E5%90%8E%E6%9D%A5%E5%91%8A%E8%AF%89%E6%88%91%EF%BC%8C%E5%A5%B9%E6%80%8E%E4%B9%88%E4%B8%8D%E9%9C%80%E8%A6%81%E5%95%A6-3.png" alt="关于JAVAweb环境配置的汇总%20为刘某，许某，李某等朋友而作，主要是刘某，问某应该不需要,问某后来告诉我，她怎么不需要啦-3"> 2.&lt;img src="https://everrwsr.github.io/tech/assets/%E5%85%B3%E4%BA%8EJAVAweb%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E7%9A%84%E6%B1%87%E6%80%BB%20%E4%B8%BA%E5%88%98%E6%9F%90%EF%BC%8C%E8%AE%B8%E6%9F%90%EF%BC%8C%E6%9D%8E%E6%9F%90%E7%AD%89%E6%9C%8B%E5%8F%8B%E8%80%8C%E4%BD%9C%EF%BC%8C%E4%B8%BB%E8%A6%81%E6%98%AF%E5%88%98%E6%9F%90%EF%BC%8C%E9%97%AE%E6%9F%90%E5%BA%94%E8%AF%A5%E4%B8%8D%E9%9C%80%E8%A6%81,%E9%97%AE%E6%9F%90%E5%90%8E%E6%9D%A5%E5%91%8A%E8%AF%89%E6%88%91%EF%BC%8C%E5%A5%B9%E6%80%8E%E4%B9%88%E4%B8%8D%E9%9C%80%E8%A6%81%E5%95%A6-4.png" alt="关于JAVAweb环境配置的汇总%20为刘某，许某，李某等朋友而作，主要是刘某，问某应该不需要,问某后来告诉我，她怎么不需要啦-4">&lt;/p>
+&lt;/blockquote>
+&lt;ol start="3">
+&lt;li>
+&lt;p>并且使用浏览器无痕模式打开项目&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>快捷键 ctrl+shift+n&lt;/p>
+&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ol>
+&lt;h4 id="42-修改数据库小技巧">4.2 修改数据库小技巧：&lt;/h4>
+&lt;p>不要直接删除数据库记录
+要尽量直接修改，不然数据库设计者的大量关联项目会被你删掉&lt;/p>
+&lt;h4 id="43-sql-语句转-word-数据库设计文档方法">4.3 sql 语句转 word 数据库设计文档方法&lt;/h4></content><category scheme="https://everrwsr.github.io/tech/" term="tech" label="tech"/></entry><entry><title type="text">passJustPast</title><link rel="alternate" type="text/html" href="https://everrwsr.github.io/life/a-song-of-past/"/><id>https://everrwsr.github.io/life/a-song-of-past/</id><updated>2022-11-11T16:41:52+08:00</updated><published>2022-11-01T18:17:54+08:00</published><author><name>everr</name><uri>https://everrwsr.github.io/</uri><email>everrwsr@outlook.com</email></author><rights>在保留本文作者及本文链接的前提下，非商业用途随意转载分享。</rights><summary type="html">“在我们的意识和物质世界共存，广义上我们的意识本身就是一种物质现象。物质决定意识的表……</summary><content type="html">&lt;p>“在我们的意识和物质世界共存，广义上我们的意识本身就是一种物质现象。物质决定意识的表达，意识的表达也决定着物质发展的方向，意识在这个物质世界所有表达的方式，都是通过物质来展现的。如果意识不表达，世界的物质世界会按照固有轨迹朝着前方发展。而意识表达了，这个世界的发展必然会受到干扰。个人永远不可彻底忽略自己的表达，对物质世界的干扰。个人也不可认为自己的表达会在这个世界停止发展。（我们想要表达的意思，会随着物质世界的发展变得的面目全非。必须要重复表达，一直在发展中强调自己的本意）”&lt;/p>
+&lt;p>“科学思想是指：在各种特殊科学认识和研究方法的基础上提炼出来的、能够发现和解释其它同类或更多事物的合理观念和推断法则，它对进一步的、更广泛的自然规则探究和人类社会实践具有导向作用。”&lt;/p></content><category scheme="https://everrwsr.github.io/life/" term="life" label="life"/><category scheme="https://everrwsr.github.io/tags/" term="reading" label="reading"/><category scheme="https://everrwsr.github.io/tags/" term="唯物主义" label="唯物主义"/></entry><entry><title type="text">对于就业道路的准备</title><link rel="alternate" type="text/html" href="https://everrwsr.github.io/life/gongzuo/"/><id>https://everrwsr.github.io/life/gongzuo/</id><updated>2023-11-04T06:51:22+00:00</updated><published>2022-10-04T18:17:54+08:00</published><author><name>everr</name><uri>https://everrwsr.github.io/</uri><email>everrwsr@outlook.com</email></author><rights>在保留本文作者及本文链接的前提下，非商业用途随意转载分享。</rights><summary type="html">网络和系统可以参考的书籍 小林图解系列可以看计算机网络，系统，mysql 等的东西，方便……</summary><content type="html">&lt;h2 id="网络和系统可以参考的书籍">网络和系统可以参考的书籍&lt;/h2>
+&lt;p>小林图解系列可以看计算机网络，系统，mysql 等的东西，方便对于这些东西有更好的认识
+如果时间不够，直接找面经背啦&lt;/p>
+&lt;h2 id="计算机校招常识类">计算机校招常识类&lt;/h2>
+&lt;h2 id="简历和面试的话术和参考">简历和面试的话术和参考&lt;/h2>
+&lt;ul>
+&lt;li>简历的修改啦&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://cdn.nlark.com/yuque/0/2022/jpeg/906866/1667387024755-f70df473-cd28-43c2-87db-b0bc5dddd134.jpeg#clientId=u3af7b416-cec2-4&amp;amp;crop=0&amp;amp;crop=0&amp;amp;crop=1&amp;amp;crop=1&amp;amp;from=paste&amp;amp;height=1434&amp;amp;id=ud0961565&amp;amp;margin=%5Bobject%20Object%5D&amp;amp;name=ee574cb352676e454d814ccf2b5cc0b.jpg&amp;amp;originHeight=1792&amp;amp;originWidth=828&amp;amp;originalType=binary&amp;amp;ratio=1&amp;amp;rotation=0&amp;amp;showTitle=false&amp;amp;size=173001&amp;amp;status=done&amp;amp;style=none&amp;amp;taskId=u2aa593cc-b3fc-4d15-bab9-7cdb1cdaab8&amp;amp;title=&amp;amp;width=662.4" alt="ee574cb352676e454d814ccf2b5cc0b.jpg">
+&lt;img src="https://cdn.nlark.com/yuque/0/2022/jpeg/906866/1667387033027-c29514cc-56e6-485c-b189-805a7ea36901.jpeg#clientId=u3af7b416-cec2-4&amp;amp;crop=0&amp;amp;crop=0&amp;amp;crop=1&amp;amp;crop=1&amp;amp;from=paste&amp;amp;height=1434&amp;amp;id=u25658fec&amp;amp;margin=%5Bobject%20Object%5D&amp;amp;name=8c493a7bc3b8e9490d8f20dc8e04022.jpg&amp;amp;originHeight=1792&amp;amp;originWidth=828&amp;amp;originalType=binary&amp;amp;ratio=1&amp;amp;rotation=0&amp;amp;showTitle=false&amp;amp;size=238858&amp;amp;status=done&amp;amp;style=none&amp;amp;taskId=u0a054e2f-0863-4c32-ba87-7be5fd31167&amp;amp;title=&amp;amp;width=662.4" alt="8c493a7bc3b8e9490d8f20dc8e04022.jpg">&lt;/p>
+&lt;h2 id="对于实习的介绍">对于实习的介绍&lt;/h2>
+&lt;h2 id="github-的介绍">GitHub 的介绍&lt;/h2>
+&lt;p>&lt;a href="https://www.yuque.com/u693751/woygo8/crw0d7?view=doc_embed">Github 指北 小白向&lt;/a>
+Github 的一些介绍&lt;/p>
+&lt;h2 id="推荐找实习和工作的-app">推荐找实习和工作的 app&lt;/h2>
+&lt;p>我看这个人写的还不错，细分实习为日常实习，暑假实习，入职前实习
+还有推荐主要看两个 app 牛客还有脉脉
+我觉得都不错哈，牛客可以看一一些经验和大家对今年情况的吐槽，脉脉主要是可以看到大家对于各种 offer 的权衡还有找校友什么方便点&lt;/p>
+&lt;h2 id="不要被焦虑到">不要被焦虑到&lt;/h2>
+&lt;p>不要被牛客和脉脉上的言论焦虑到，我个人感觉这个说的比较中肯。
+&lt;img src="https://cdn.nlark.com/yuque/0/2022/jpeg/906866/1667387115631-a0e6f990-a862-4d9e-a5e1-17272cae7f74.jpeg#clientId=u3af7b416-cec2-4&amp;amp;crop=0&amp;amp;crop=0&amp;amp;crop=1&amp;amp;crop=1&amp;amp;from=paste&amp;amp;height=142&amp;amp;id=u5a9c8a07&amp;amp;margin=%5Bobject%20Object%5D&amp;amp;name=68fafea00ef1ce9cdfaed678e0162f9.jpg&amp;amp;originHeight=177&amp;amp;originWidth=720&amp;amp;originalType=binary&amp;amp;ratio=1&amp;amp;rotation=0&amp;amp;showTitle=false&amp;amp;size=73122&amp;amp;status=done&amp;amp;style=none&amp;amp;taskId=ua68d085d-1975-4f2e-85e3-7ffca9d0423&amp;amp;title=&amp;amp;width=576" alt="68fafea00ef1ce9cdfaed678e0162f9.jpg">&lt;/p>
+&lt;h2 id="刷题可以看的">刷题可以看的&lt;/h2>
+&lt;h2 id="计算机秋招和实习的一些基础常识">计算机秋招和实习的一些基础常识&lt;/h2>
+&lt;p>....后续继续添加啦&lt;/p></content><category scheme="https://everrwsr.github.io/life/" term="life" label="life"/><category scheme="https://everrwsr.github.io/tags/" term="code" label="code"/><category scheme="https://everrwsr.github.io/tags/" term="工作" label="工作"/></entry><entry><title type="text">自勉</title><link rel="alternate" type="text/html" href="https://everrwsr.github.io/life/zhai-lu-zi-mian/"/><id>https://everrwsr.github.io/life/zhai-lu-zi-mian/</id><updated>2023-11-04T06:51:22+00:00</updated><published>2022-09-02T18:17:54+08:00</published><author><name>everr</name><uri>https://everrwsr.github.io/</uri><email>everrwsr@outlook.com</email></author><rights>在保留本文作者及本文链接的前提下，非商业用途随意转载分享。</rights><summary type="html">李光地也说过：“人于书有一见便晓者，天下之弃材也。须是积累而进，溫故知新，方能牢固。……</summary><content type="html">&lt;blockquote>
+&lt;p>李光地也说过：“人于书有一见便晓者，天下之弃材也。须是积累而进，溫故知新，方能牢固。如富贵家儿生来便有得用，他看钱物天然不爱惜。惟辛勤成家，便一草一木，爱之护之。读书从勤苦中得些滋味。自然不肯放下。往往见人家子弟，一见便晓，多无成就。”此与我自己所体会者，得之易失之亦易，得之难失之亦难，同一主张，尤足为富家与早慧之子弟当头一棒也。
+持恒&lt;/p>
+&lt;/blockquote>
+&lt;p>曾国藩说：“有恒则断无不成之事，无恒则终身一无所成。”这确是一针见血的话。
+郑畊老《劝学篇》称：“今取《六经》及《论语》、《孟子》、《孝经》以字数计之，《毛诗》三万九千一百二十四字，《尚书》二万五千七百字，《周礼》四万五千八百六字，《礼记》九万九千二十字，《周易》二万四千二百七字，《春秋左氏传》一十九万六千八百四十五字，《论语》一万二千七百字，《孟子》三万四千六百八十五字，《孝经》一千九百三字；大小九经字数合四十八万四千九十五；且以中才为率，若日诵三百字，不过四年半可毕······里谚曰，积丝成寸，积寸成尺；尺寸不已，遂成丈匹。此语虽小，可以喻大。”
+&lt;strong>可见有恒则无不可按日程功者。否则正如一日暴之，十日寒之，初时纵能猛进，又有何益。&lt;/strong>&lt;/p></content><category scheme="https://everrwsr.github.io/life/" term="life" label="life"/><category scheme="https://everrwsr.github.io/tags/" term="reading" label="reading"/></entry><entry><title type="text">idea 部署maven ，利用idea自带，修改为阿里云镜像</title><link rel="alternate" type="text/html" href="https://everrwsr.github.io/tech/idea-%E9%83%A8%E7%BD%B2maven-%E5%88%A9%E7%94%A8idea%E8%87%AA%E5%B8%A6%E4%BF%AE%E6%94%B9%E4%B8%BA%E9%98%BF%E9%87%8C%E4%BA%91%E9%95%9C%E5%83%8F/"/><id>https://everrwsr.github.io/tech/idea-%E9%83%A8%E7%BD%B2maven-%E5%88%A9%E7%94%A8idea%E8%87%AA%E5%B8%A6%E4%BF%AE%E6%94%B9%E4%B8%BA%E9%98%BF%E9%87%8C%E4%BA%91%E9%95%9C%E5%83%8F/</id><updated>2023-11-04T06:51:23+00:00</updated><published>2022-05-12T18:18:21+08:00</published><author><name>everr</name><uri>https://everrwsr.github.io/</uri><email>everrwsr@outlook.com</email></author><rights>在保留本文作者及本文链接的前提下，非商业用途随意转载分享。</rights><summary type="html">settings.xms &amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt; &amp;lt;settings xmlns=&amp;quot;http://maven.apache.org/SETTINGS/1.0.0&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xsi:schemaLocation=&amp;quot;http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd&amp;quot;&amp;gt; &amp;lt;!-- 本地仓库的位置 --&amp;gt; &amp;lt;localRepository&amp;gt;${user.home}/.m2/repository&amp;lt;/localRepository&amp;gt; &amp;lt;!-- Apache Maven 配置 --&amp;gt; &amp;lt;pluginGroups/&amp;gt; &amp;lt;proxies/&amp;gt; &amp;lt;!-- 私服发布的用户名密码 --&amp;gt; &amp;lt;servers&amp;gt; &amp;lt;/servers&amp;gt; &amp;lt;!--……</summary><content type="html">&lt;p>settings.xms&lt;/p>
+&lt;pre tabindex="0">&lt;code>&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;
+&amp;lt;settings xmlns=&amp;quot;http://maven.apache.org/SETTINGS/1.0.0&amp;quot;
+xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xsi:schemaLocation=&amp;quot;http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd&amp;quot;&amp;gt;
+&amp;lt;!-- 本地仓库的位置 --&amp;gt;
+&amp;lt;localRepository&amp;gt;${user.home}/.m2/repository&amp;lt;/localRepository&amp;gt;
+&amp;lt;!-- Apache Maven 配置 --&amp;gt;
+&amp;lt;pluginGroups/&amp;gt;
+&amp;lt;proxies/&amp;gt;
+&amp;lt;!-- 私服发布的用户名密码 --&amp;gt;
+&amp;lt;servers&amp;gt;
+&amp;lt;/servers&amp;gt;
+&amp;lt;!-- 阿里云镜像 --&amp;gt;
+&amp;lt;mirrors&amp;gt;
+&amp;lt;mirror&amp;gt;
+&amp;lt;id&amp;gt;alimaven&amp;lt;/id&amp;gt;
+&amp;lt;name&amp;gt;aliyun maven&amp;lt;/name&amp;gt;
+&amp;lt;!-- https://maven.aliyun.com/repository/public/ --&amp;gt;
+&amp;lt;url&amp;gt;https://maven.aliyun.com/nexus/content/groups/public/&amp;lt;/url&amp;gt;
+&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;
+&amp;lt;/mirror&amp;gt;
+&amp;lt;/mirrors&amp;gt;
+&amp;lt;!-- 配置: java8, 先从阿里云下载, 没有再去私服下载 --&amp;gt;
+&amp;lt;!-- 20190929 hepengju 测试结果: 影响下载顺序的是profiles标签的配置顺序(后面配置的ali仓库先下载), 而不是activeProfiles的顺序 --&amp;gt;
+&amp;lt;profiles&amp;gt;
+&amp;lt;!-- 全局JDK1.8配置 --&amp;gt;
+&amp;lt;profile&amp;gt;
+&amp;lt;id&amp;gt;jdk1.8&amp;lt;/id&amp;gt;
+&amp;lt;activation&amp;gt;
+&amp;lt;activeByDefault&amp;gt;true&amp;lt;/activeByDefault&amp;gt;
+&amp;lt;jdk&amp;gt;1.8&amp;lt;/jdk&amp;gt;
+&amp;lt;/activation&amp;gt;
+&amp;lt;properties&amp;gt;
+&amp;lt;project.build.sourceEncoding&amp;gt;UTF-8&amp;lt;/project.build.sourceEncoding&amp;gt;
+&amp;lt;maven.compiler.source&amp;gt;1.8&amp;lt;/maven.compiler.source&amp;gt;
+&amp;lt;maven.compiler.target&amp;gt;1.8&amp;lt;/maven.compiler.target&amp;gt;
+&amp;lt;maven.compiler.compilerVersion&amp;gt;1.8&amp;lt;/maven.compiler.compilerVersion&amp;gt;
+&amp;lt;/properties&amp;gt;
+&amp;lt;/profile&amp;gt;
+&amp;lt;!-- Nexus私服配置: 第三方jar包下载, 比如oracle的jdbc驱动等 --&amp;gt;
+&amp;lt;!-- 阿里云配置: 提高国内的jar包下载速度 --&amp;gt;
+&amp;lt;profile&amp;gt;
+&amp;lt;id&amp;gt;ali&amp;lt;/id&amp;gt;
+&amp;lt;repositories&amp;gt;
+&amp;lt;repository&amp;gt;
+&amp;lt;id&amp;gt;alimaven&amp;lt;/id&amp;gt;
+&amp;lt;name&amp;gt;aliyun maven&amp;lt;/name&amp;gt;
+&amp;lt;url&amp;gt;https://maven.aliyun.com/nexus/content/groups/public/&amp;lt;/url&amp;gt;
+&amp;lt;releases&amp;gt;
+&amp;lt;enabled&amp;gt;true&amp;lt;/enabled&amp;gt;
+&amp;lt;/releases&amp;gt;
+&amp;lt;snapshots&amp;gt;
+&amp;lt;enabled&amp;gt;true&amp;lt;/enabled&amp;gt;
+&amp;lt;/snapshots&amp;gt;
+&amp;lt;/repository&amp;gt;
+&amp;lt;/repositories&amp;gt;
+&amp;lt;pluginRepositories&amp;gt;
+&amp;lt;pluginRepository&amp;gt;
+&amp;lt;id&amp;gt;alimaven&amp;lt;/id&amp;gt;
+&amp;lt;name&amp;gt;aliyun maven&amp;lt;/name&amp;gt;
+&amp;lt;url&amp;gt;https://maven.aliyun.com/nexus/content/groups/public/&amp;lt;/url&amp;gt;
+&amp;lt;/pluginRepository&amp;gt;
+&amp;lt;/pluginRepositories&amp;gt;
+&amp;lt;/profile&amp;gt;
+&amp;lt;/profiles&amp;gt;
+&amp;lt;!-- 激活配置 --&amp;gt;
+&amp;lt;activeProfiles&amp;gt;
+&amp;lt;activeProfile&amp;gt;jdk1.8&amp;lt;/activeProfile&amp;gt;
+&amp;lt;activeProfile&amp;gt;dev&amp;lt;/activeProfile&amp;gt;
+&amp;lt;activeProfile&amp;gt;ali&amp;lt;/activeProfile&amp;gt;
+&amp;lt;/activeProfiles&amp;gt;
+&amp;lt;/settings&amp;gt;
+&lt;/code>&lt;/pre></content><category scheme="https://everrwsr.github.io/tech/" term="tech" label="tech"/></entry><entry><title type="text">maven2</title><link rel="alternate" type="text/html" href="https://everrwsr.github.io/tech/maven/"/><id>https://everrwsr.github.io/tech/maven/</id><updated>2023-05-15T12:52:45+08:00</updated><published>2022-05-11T18:18:21+08:00</published><author><name>everr</name><uri>https://everrwsr.github.io/</uri><email>everrwsr@outlook.com</email></author><rights>在保留本文作者及本文链接的前提下，非商业用途随意转载分享。</rights><summary type="html">&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt; &amp;lt;settings xmlns=&amp;quot;http://maven.apache.org/SETTINGS/1.0.0&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xsi:schemaLocation=&amp;quot;http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd&amp;quot;&amp;gt; &amp;lt;!-- 本地仓库的位置 --&amp;gt; &amp;lt;localRepository&amp;gt;${user.home}/.m2/repository&amp;lt;/localRepository&amp;gt; &amp;lt;!-- Apache Maven 配置 --&amp;gt; &amp;lt;pluginGroups/&amp;gt; &amp;lt;proxies/&amp;gt; &amp;lt;!-- 私服发布的用户名密码 --&amp;gt; &amp;lt;servers&amp;gt; &amp;lt;/servers&amp;gt; &amp;lt;!-- 阿……</summary><content type="html">&lt;pre tabindex="0">&lt;code>&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;
+&amp;lt;settings xmlns=&amp;quot;http://maven.apache.org/SETTINGS/1.0.0&amp;quot;
+xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xsi:schemaLocation=&amp;quot;http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd&amp;quot;&amp;gt;
+&amp;lt;!-- 本地仓库的位置 --&amp;gt;
+&amp;lt;localRepository&amp;gt;${user.home}/.m2/repository&amp;lt;/localRepository&amp;gt;
+&amp;lt;!-- Apache Maven 配置 --&amp;gt;
+&amp;lt;pluginGroups/&amp;gt;
+&amp;lt;proxies/&amp;gt;
+&amp;lt;!-- 私服发布的用户名密码 --&amp;gt;
+&amp;lt;servers&amp;gt;
+&amp;lt;/servers&amp;gt;
+&amp;lt;!-- 阿里云镜像 --&amp;gt;
+&amp;lt;mirrors&amp;gt;
+&amp;lt;!-- 镜像1 --&amp;gt;
+&amp;lt;!-- &amp;lt;mirror&amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;lt;id&amp;gt;mirrorId&amp;lt;/id&amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;lt;name&amp;gt;Human Readable Name &amp;lt;/name&amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;lt;url&amp;gt;http://repo1.maven.org/maven2/&amp;lt;/url&amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;lt;/mirror&amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;amp;lt;!&amp;amp;ndash; 又一个镜像 &amp;amp;ndash;&amp;amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;lt;mirror&amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;lt;id&amp;gt;alimaven&amp;lt;/id&amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;lt;name&amp;gt;aliyun maven&amp;lt;/name&amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;lt;url&amp;gt;http://central.maven.org/maven2&amp;lt;/url&amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;lt;/mirror&amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;amp;lt;!&amp;amp;ndash; 阿里云镜像 &amp;amp;ndash;&amp;amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;lt;mirror&amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;lt;id&amp;gt;alimaven&amp;lt;/id&amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;lt;name&amp;gt;aliyun maven&amp;lt;/name&amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;lt;url&amp;gt;http://maven.aliyun.com/nexus/content/repositories/central/&amp;lt;/url&amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;--&amp;gt;
+&amp;lt;!-- &amp;lt;/mirror&amp;gt;--&amp;gt;
+&amp;lt;!-- 镜像2--&amp;gt;
+&amp;lt;!-- 阿里云仓库 --&amp;gt;
+&amp;lt;mirror&amp;gt;
+&amp;lt;id&amp;gt;alimaven&amp;lt;/id&amp;gt;
+&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;
+&amp;lt;name&amp;gt;aliyun maven&amp;lt;/name&amp;gt;
+&amp;lt;url&amp;gt;http://maven.aliyun.com/nexus/content/repositories/central/&amp;lt;/url&amp;gt;
+&amp;lt;/mirror&amp;gt;
+&amp;lt;!-- 中央仓库1 --&amp;gt;
+&amp;lt;mirror&amp;gt;
+&amp;lt;id&amp;gt;repo1&amp;lt;/id&amp;gt;
+&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;
+&amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt;
+&amp;lt;url&amp;gt;http://repo1.maven.org/maven2/&amp;lt;/url&amp;gt;
+&amp;lt;/mirror&amp;gt;
+&amp;lt;!-- 中央仓库2 --&amp;gt;
+&amp;lt;mirror&amp;gt;
+&amp;lt;id&amp;gt;repo2&amp;lt;/id&amp;gt;
+&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;
+&amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt;
+&amp;lt;url&amp;gt;http://repo2.maven.org/maven2/&amp;lt;/url&amp;gt;
+&amp;lt;/mirror&amp;gt;
+&amp;lt;!-- junit镜像地址 --&amp;gt;
+&amp;lt;mirror&amp;gt;
+&amp;lt;id&amp;gt;junit&amp;lt;/id&amp;gt;
+&amp;lt;name&amp;gt;junit Address/&amp;lt;/name&amp;gt;
+&amp;lt;url&amp;gt;http://jcenter.bintray.com/&amp;lt;/url&amp;gt;
+&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;
+&amp;lt;/mirror&amp;gt;
+&amp;lt;/mirrors&amp;gt;
+&amp;lt;!-- 配置: java8, 先从阿里云下载, 没有再去私服下载 --&amp;gt;
+&amp;lt;!-- 20190929 hepengju 测试结果: 影响下载顺序的是profiles标签的配置顺序(后面配置的ali仓库先下载), 而不是activeProfiles的顺序 --&amp;gt;
+&amp;lt;profiles&amp;gt;
+&amp;lt;!-- 全局JDK1.8配置 --&amp;gt;
+&amp;lt;profile&amp;gt;
+&amp;lt;id&amp;gt;jdk1.8&amp;lt;/id&amp;gt;
+&amp;lt;activation&amp;gt;
+&amp;lt;activeByDefault&amp;gt;true&amp;lt;/activeByDefault&amp;gt;
+&amp;lt;jdk&amp;gt;1.8&amp;lt;/jdk&amp;gt;
+&amp;lt;/activation&amp;gt;
+&amp;lt;properties&amp;gt;
+&amp;lt;project.build.sourceEncoding&amp;gt;UTF-8&amp;lt;/project.build.sourceEncoding&amp;gt;
+&amp;lt;maven.compiler.source&amp;gt;1.8&amp;lt;/maven.compiler.source&amp;gt;
+&amp;lt;maven.compiler.target&amp;gt;1.8&amp;lt;/maven.compiler.target&amp;gt;
+&amp;lt;maven.compiler.compilerVersion&amp;gt;1.8&amp;lt;/maven.compiler.compilerVersion&amp;gt;
+&amp;lt;/properties&amp;gt;
+&amp;lt;/profile&amp;gt;
+&amp;lt;!-- Nexus私服配置: 第三方jar包下载, 比如oracle的jdbc驱动等 --&amp;gt;
+&amp;lt;!-- 阿里云配置: 提高国内的jar包下载速度 --&amp;gt;
+&amp;lt;profile&amp;gt;
+&amp;lt;id&amp;gt;ali&amp;lt;/id&amp;gt;
+&amp;lt;repositories&amp;gt;
+&amp;lt;repository&amp;gt;
+&amp;lt;id&amp;gt;alimaven&amp;lt;/id&amp;gt;
+&amp;lt;name&amp;gt;aliyun maven&amp;lt;/name&amp;gt;
+&amp;lt;url&amp;gt;https://maven.aliyun.com/nexus/content/groups/public/&amp;lt;/url&amp;gt;
+&amp;lt;releases&amp;gt;
+&amp;lt;enabled&amp;gt;true&amp;lt;/enabled&amp;gt;
+&amp;lt;/releases&amp;gt;
+&amp;lt;snapshots&amp;gt;
+&amp;lt;enabled&amp;gt;true&amp;lt;/enabled&amp;gt;
+&amp;lt;/snapshots&amp;gt;
+&amp;lt;/repository&amp;gt;
+&amp;lt;/repositories&amp;gt;
+&amp;lt;pluginRepositories&amp;gt;
+&amp;lt;pluginRepository&amp;gt;
+&amp;lt;id&amp;gt;alimaven&amp;lt;/id&amp;gt;
+&amp;lt;name&amp;gt;aliyun maven&amp;lt;/name&amp;gt;
+&amp;lt;url&amp;gt;https://maven.aliyun.com/nexus/content/groups/public/&amp;lt;/url&amp;gt;
+&amp;lt;/pluginRepository&amp;gt;
+&amp;lt;/pluginRepositories&amp;gt;
+&amp;lt;/profile&amp;gt;
+&amp;lt;/profiles&amp;gt;
+&amp;lt;!-- 激活配置 --&amp;gt;
+&amp;lt;activeProfiles&amp;gt;
+&amp;lt;activeProfile&amp;gt;jdk1.8&amp;lt;/activeProfile&amp;gt;
+&amp;lt;activeProfile&amp;gt;dev&amp;lt;/activeProfile&amp;gt;
+&amp;lt;activeProfile&amp;gt;ali&amp;lt;/activeProfile&amp;gt;
+&amp;lt;/activeProfiles&amp;gt;
+&amp;lt;/settings&amp;gt;
+&lt;/code>&lt;/pre></content><category scheme="https://everrwsr.github.io/tech/" term="tech" label="tech"/></entry><entry><title type="text">对于就业道路的准备啦——祝愿朋友可以找到满意的工作</title><link rel="alternate" type="text/html" href="https://everrwsr.github.io/tech/%E5%AF%B9%E4%BA%8E%E5%B0%B1%E4%B8%9A%E9%81%93%E8%B7%AF%E7%9A%84%E5%87%86%E5%A4%87%E5%95%A6%E7%A5%9D%E6%84%BF%E6%9C%8B%E5%8F%8B%E5%8F%AF%E4%BB%A5%E6%89%BE%E5%88%B0%E6%BB%A1%E6%84%8F%E7%9A%84%E5%B7%A5%E4%BD%9C/"/><id>https://everrwsr.github.io/tech/%E5%AF%B9%E4%BA%8E%E5%B0%B1%E4%B8%9A%E9%81%93%E8%B7%AF%E7%9A%84%E5%87%86%E5%A4%87%E5%95%A6%E7%A5%9D%E6%84%BF%E6%9C%8B%E5%8F%8B%E5%8F%AF%E4%BB%A5%E6%89%BE%E5%88%B0%E6%BB%A1%E6%84%8F%E7%9A%84%E5%B7%A5%E4%BD%9C/</id><updated>2023-11-04T06:51:23+00:00</updated><published>2022-05-11T18:18:21+08:00</published><author><name>everr</name><uri>https://everrwsr.github.io/</uri><email>everrwsr@outlook.com</email></author><rights>在保留本文作者及本文链接的前提下，非商业用途随意转载分享。</rights><summary type="html">网络和系统可以参考的书籍 小林图解系列可以看计算机网络，系统，mysql等的东西，方便……</summary><content type="html">&lt;h2 id="网络和系统可以参考的书籍">网络和系统可以参考的书籍&lt;/h2>
+&lt;p>小林图解系列可以看计算机网络，系统，mysql等的东西，方便对于这些东西有更好的认识
+如果时间不够，直接找面经背啦&lt;/p>
+&lt;h2 id="计算机校招常识类">计算机校招常识类&lt;/h2>
+&lt;h2 id="简历和面试的话术和参考">简历和面试的话术和参考&lt;/h2>
+&lt;ul>
+&lt;li>简历的修改啦&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://everrwsr.github.io/tech/assets/%E5%AF%B9%E4%BA%8E%E5%B0%B1%E4%B8%9A%E9%81%93%E8%B7%AF%E7%9A%84%E5%87%86%E5%A4%87%E5%95%A6%E2%80%94%E2%80%94%E7%A5%9D%E6%84%BF%E6%9C%8B%E5%8F%8B%E5%8F%AF%E4%BB%A5%E6%89%BE%E5%88%B0%E6%BB%A1%E6%84%8F%E7%9A%84%E5%B7%A5%E4%BD%9C-0.jpeg" alt="对于就业道路的准备啦——祝愿朋友可以找到满意的工作-0">
+&lt;img src="https://everrwsr.github.io/tech/assets/%E5%AF%B9%E4%BA%8E%E5%B0%B1%E4%B8%9A%E9%81%93%E8%B7%AF%E7%9A%84%E5%87%86%E5%A4%87%E5%95%A6%E2%80%94%E2%80%94%E7%A5%9D%E6%84%BF%E6%9C%8B%E5%8F%8B%E5%8F%AF%E4%BB%A5%E6%89%BE%E5%88%B0%E6%BB%A1%E6%84%8F%E7%9A%84%E5%B7%A5%E4%BD%9C-1.jpeg" alt="对于就业道路的准备啦——祝愿朋友可以找到满意的工作-1">&lt;/p>
+&lt;h2 id="对于实习的介绍">对于实习的介绍&lt;/h2>
+&lt;h2 id="github的介绍">GitHub的介绍&lt;/h2>
+&lt;p>&lt;a href="https://www.yuque.com/u693751/woygo8/crw0d7?view=doc_embed">Github 指北 小白向&lt;/a>
+Github的一些介绍&lt;/p>
+&lt;h2 id="推荐找实习和工作的app">推荐找实习和工作的app&lt;/h2>
+&lt;p>我看这个人写的还不错，细分实习为日常实习，暑假实习，入职前实习
+还有推荐主要看两个app牛客还有脉脉
+我觉得都不错哈，牛客可以看一一些经验和大家对今年情况的吐槽，脉脉主要是可以看到大家对于各种offer的权衡还有找校友什么方便点&lt;/p>
+&lt;h2 id="不要被焦虑到">不要被焦虑到&lt;/h2>
+&lt;p>不要被牛客和脉脉上的言论焦虑到，我个人感觉这个说的比较中肯。
+&lt;img src="https://everrwsr.github.io/tech/assets/%E5%AF%B9%E4%BA%8E%E5%B0%B1%E4%B8%9A%E9%81%93%E8%B7%AF%E7%9A%84%E5%87%86%E5%A4%87%E5%95%A6%E2%80%94%E2%80%94%E7%A5%9D%E6%84%BF%E6%9C%8B%E5%8F%8B%E5%8F%AF%E4%BB%A5%E6%89%BE%E5%88%B0%E6%BB%A1%E6%84%8F%E7%9A%84%E5%B7%A5%E4%BD%9C-2.jpeg" alt="对于就业道路的准备啦——祝愿朋友可以找到满意的工作-2">&lt;/p>
+&lt;h2 id="刷题可以看的">刷题可以看的&lt;/h2>
+&lt;h2 id="计算机秋招和实习的一些基础常识">计算机秋招和实习的一些基础常识&lt;/h2>
+&lt;p>....后续继续添加啦&lt;/p></content><category scheme="https://everrwsr.github.io/tech/" term="tech" label="tech"/></entry><entry><title type="text">computerEnrollSystem 配置教程</title><link rel="alternate" type="text/html" href="https://everrwsr.github.io/tech/computerenrollsystem-%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/"/><id>https://everrwsr.github.io/tech/computerenrollsystem-%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/</id><updated>2023-11-04T06:51:23+00:00</updated><published>2022-05-02T18:18:21+08:00</published><author><name>everr</name><uri>https://everrwsr.github.io/</uri><email>everrwsr@outlook.com</email></author><rights>在保留本文作者及本文链接的前提下，非商业用途随意转载分享。</rights><summary type="html">tomcat8.0 mysql 8</summary><content type="html">&lt;ol>
+&lt;li>&lt;/li>
+&lt;li>tomcat8.0&lt;/li>
+&lt;li>mysql 8&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ol></content><category scheme="https://everrwsr.github.io/tech/" term="tech" label="tech"/></entry></feed>
