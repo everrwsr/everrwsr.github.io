@@ -25,26 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/zh/life/nizaiganma.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5f559044613cdc97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/zh/life/obsidian 折腾hugo快捷写作记录.md",
+                "file": "_Templates/hugo博客模板 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/zh/life/obsidian 折腾hugo快捷写作记录.md",
+                "file": "_Templates/hugo博客模板 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/zh/life/obsidian 折腾hugo快捷写作记录.md",
+                "file": "_Templates/hugo博客模板 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/zh/life/obsidian 折腾hugo快捷写作记录.md"
+                "file": "_Templates/hugo博客模板 2.md"
               }
             }
           },
@@ -180,13 +168,14 @@
       "templates:插入模板": false
     }
   },
-  "active": "5f559044613cdc97",
+  "active": "05140d77564d1baa",
   "lastOpenFiles": [
-    "content/zh/life/nizaiganma.md",
     "content/zh/life/obsidian 折腾hugo快捷写作记录.md",
+    "_Templates/hugo博客模板 2.md",
+    "content/zh/life/Obsidian+Git 完美维护 Hexo 博客.md",
+    "content/zh/life/nizaiganma.md",
     "content/zh/life/承认痛苦.md",
     "content/zh/life/_index.md",
-    "_Templates/hugo博客模板 2.md",
     "content/zh/life/pastJustPast.md",
     "content/zh/life/ceshi.md",
     "content/zh/life/fdasf.md",
@@ -207,7 +196,6 @@
     "content/zh/life/boke222.md",
     "content/zh/life/boke11.md",
     "content/zh/life/boke.md",
-    "content/zh/life/dasf.md",
     "_Templates"
   ]
 }

@@ -1,8 +1,8 @@
 ---
-title: obsidian 折腾hugo快捷写作记录博客模板 2
+title: obsidian 折腾hugo快捷写作记录
 date: 2023-11-05T13:00:15+08:00
 date created: 星期六, 十一月 4日 2023, 9:22:46 晚上
-date modified: 星期日, 十一月 5日 2023, 19:0:316下午:05 晚上
+date modified: 星期日, 十一月 5日 2023, 1:11:05 下午
 ---
 
 
