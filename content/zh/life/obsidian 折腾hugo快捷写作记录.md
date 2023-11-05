@@ -5,13 +5,16 @@ date created: 星期六, 十一月 4日 2023, 9:22:46 晚上
 date modified: 星期日, 十一月 5日 2023, 1:11:05 下午
 ---
 
-
-
+## Pre
 
 设置好仓库后
 obsidian 设置
 
-插件
+
+
+## 插件
+
+
 1 . obsidian git   同步
 2 . templer,添加时间，官方模板无法支持hugo原生时间格式
 故必须使用这个
@@ -28,7 +31,9 @@ obsidian 设置
 ![image.png](https://cdn.jsdelivr.net/gh/everrwsr/blogimage@master/202311042143428.png)
 
 
-参考教程
+
+## 参考教程
+
 [[Obsidian+Git 完美维护 Hexo 博客]]
 
 [[obsidian 配合 hugo、cloudflare：让发布博客简单到不可思议：：夜猫日记]]

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/hugo博客模板 2.md",
+                "file": "content/zh/life/obsidian 折腾hugo快捷写作记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Templates/hugo博客模板 2.md",
+                "file": "content/zh/life/obsidian 折腾hugo快捷写作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Templates/hugo博客模板 2.md",
+                "file": "content/zh/life/obsidian 折腾hugo快捷写作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Templates/hugo博客模板 2.md"
+                "file": "content/zh/life/obsidian 折腾hugo快捷写作记录.md"
               }
             }
           },
@@ -170,13 +170,13 @@
   },
   "active": "05140d77564d1baa",
   "lastOpenFiles": [
+    "content/zh/life/pastJustPast.md",
+    "_Templates/2.md",
     "content/zh/life/obsidian 折腾hugo快捷写作记录.md",
-    "_Templates/hugo博客模板 2.md",
     "content/zh/life/Obsidian+Git 完美维护 Hexo 博客.md",
     "content/zh/life/nizaiganma.md",
     "content/zh/life/承认痛苦.md",
     "content/zh/life/_index.md",
-    "content/zh/life/pastJustPast.md",
     "content/zh/life/ceshi.md",
     "content/zh/life/fdasf.md",
     "content/zh/life/xxxxxxxx.md",
