@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a112f7b454edfa6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/zh/life/zotero style设置.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/zh/life/更好的做笔记.md",
+                "file": "content/zh/life/zotero style设置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/zh/life/更好的做笔记.md",
+                "file": "content/zh/life/zotero style设置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/zh/life/更好的做笔记.md"
+                "file": "content/zh/life/zotero style设置.md"
               }
             }
           },
@@ -192,10 +204,11 @@
       "templates:插入模板": false
     }
   },
-  "active": "3cd4e50dbb95f105",
+  "active": "a112f7b454edfa6a",
   "lastOpenFiles": [
-    "content/zh/life/承认痛苦.md",
     "content/zh/life/更好的做笔记.md",
+    "content/zh/life/zotero style设置.md",
+    "content/zh/life/承认痛苦.md",
     "content/zh/life/未命名.md",
     "content/zh/life/pastJustPast.md",
     "content/zh/life/obsidian 折腾hugo快捷写作记录.md",
@@ -219,7 +232,6 @@
     "README.md",
     "未命名 2.md",
     "content/zh/life/df.md",
-    "content/zh/life/boke222.md",
     "_Templates"
   ]
 }
