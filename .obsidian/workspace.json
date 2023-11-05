@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/zh/life/obsidian 折腾hugo快捷写作记录.md",
+                "file": "content/zh/life/nizaiganma.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/zh/life/obsidian 折腾hugo快捷写作记录.md",
+                "file": "content/zh/life/nizaiganma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/zh/life/obsidian 折腾hugo快捷写作记录.md",
+                "file": "content/zh/life/nizaiganma.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/zh/life/obsidian 折腾hugo快捷写作记录.md"
+                "file": "content/zh/life/nizaiganma.md"
               }
             }
           },
@@ -170,9 +170,9 @@
   },
   "active": "05140d77564d1baa",
   "lastOpenFiles": [
+    "content/zh/life/obsidian 折腾hugo快捷写作记录.md",
     "content/zh/life/pastJustPast.md",
     "_Templates/2.md",
-    "content/zh/life/obsidian 折腾hugo快捷写作记录.md",
     "content/zh/life/Obsidian+Git 完美维护 Hexo 博客.md",
     "content/zh/life/nizaiganma.md",
     "content/zh/life/承认痛苦.md",
