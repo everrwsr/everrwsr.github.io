@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d4f4e64b1564a5cf",
+        "id": "4aa68a50beff26b9",
         "type": "tabs",
         "children": [
           {
-            "id": "b1fd5ded7c091cc8",
+            "id": "8ece2015aaa3720f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/zh/life/pastJustPast.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05140d77564d1baa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/zh/life/pastJustPast.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a400b75db7f79994",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/zh/life/承认痛苦.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3cd4e50dbb95f105",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/zh/life/更好的做笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a112f7b454edfa6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/zh/life/zotero style设置.md",
+                "file": "content/zh/life/超方便给你的代码加上注释简洁版本.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/zh/life/zotero style设置.md",
+                "file": "content/zh/life/超方便给你的代码加上注释简洁版本.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/zh/life/zotero style设置.md",
+                "file": "content/zh/life/超方便给你的代码加上注释简洁版本.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/zh/life/zotero style设置.md"
+                "file": "content/zh/life/超方便给你的代码加上注释简洁版本.md"
               }
             }
           },
@@ -204,19 +155,19 @@
       "templates:插入模板": false
     }
   },
-  "active": "a112f7b454edfa6a",
+  "active": "8ece2015aaa3720f",
   "lastOpenFiles": [
+    "content/zh/life/超方便给你的代码加上注释简洁版本.md",
     "content/zh/life/pastJustPast.md",
+    "content/zh/life/承认痛苦.md",
+    "content/zh/life/更好的做笔记.md",
+    "content/zh/life/zotero style设置.md",
     "content/zh/life/obsidian 折腾hugo快捷写作记录.md",
     "content/zh/life/自勉.md",
     "content/zh/life/心灵捕手摘录.md",
     "content/zh/life/可以问自己的问题.md",
     "content/zh/life/工作.md",
-    "content/zh/life/更好的做笔记.md",
-    "content/zh/life/承认痛苦.md",
     "README.md",
-    "content/zh/life/未命名.md",
-    "content/zh/life/zotero style设置.md",
     "_Templates/2.md",
     "content/zh/life/Obsidian+Git 完美维护 Hexo 博客.md",
     "content/zh/life/_index.md",
