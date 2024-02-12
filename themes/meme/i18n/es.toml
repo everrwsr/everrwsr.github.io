@@ -5,63 +5,63 @@ other = "…"
 other = ": "
 
 [minute]
-one = "menit"
-other = "menit"
+one = "min"
+other = "mins"
 
 [tocTitle]
-other = "Daftar Isi"
+other = "Contenido"
 
 [readMore]
-other = "Selengkapnya"
+other = "Continúa leyendo"
 
 [prevPage]
-other = "Sebelumnya"
+other = "Nuevas"
 
 [nextPage]
-other = "Selanjutnya"
+other = "Viejas"
 
 [copy]
-other = "Salin"
+other = "Copiar"
 
 [copied]
-other = "Tersalin!"
+other = "Copiado!"
 
 [copyrightAuthor]
-other = "Pengarang"
+other = "Autor"
 
 [copyrightLink]
-other = "Tautan"
+other = "Vínculo"
 
 [copyrightLicense]
-other = "Lisensi"
+other = "Licencia"
 
 [shareOn]
-other = "Bagikan ke:"
+other = "Compartir en:"
 
 [shareOnTitle]
-other = "Bagikan "
+other = "Compartir en "
 
 [shareViaTitle]
-other = "Bagikan melalui "
+other = "Compartir via "
 
 [relatedPosts]
-other = "Tulisan lainnya:"
+other = "Publicaciones relacionadas:"
 
 [loadComments]
-other = "Memuat Komentar?"
+other = "Cargar Comentarios?"
 
 [pageNotFound]
-other = "404 - Tidak ditemukan"
+other = "404 - Página no encontrada."
 
 [fofLinkText]
-other = "Arahkan ke Beranda"
+other = "Llévame al Inicio"
 
 [searchResultsTitle]
-one = "Ditemukan satu hasil untuk “{{ .Term }}”"
-other = "Ditemukan {{ .Count }} hasil dari “{{ .Term }}”"
+one = "Se encontró un resultado sobre “{{ .Term }}”"
+other = "Se encontraron {{ .Count }} resultados sobre “{{ .Term }}”"
 
 [searchResultsNone]
-other = "Tidak ditemukan hasil dari “{{ .Term }}”"
+other = "No se encontró ningún resultado sobre “{{ .Term }}”"
 
 
 # Socials
@@ -103,74 +103,74 @@ other = "Pocket"
 other = "Hacker News"
 
 [qrcode]
-other = "QR Code"
+other = "Código QR"
 
 [email]
-other = "surel"
+other = "correo electrónico"
 
 
 # Share on Fediverse page
 
 [javascriptRequired]
-other = "Fungsionalitas ini memerlukan JavaScript untuk diaktifkan!"
+other = "¡Esta funcionalidad requiere que JavaScript esté habilitado!"
 
 [fedishareTitleLabel]
-other = "Judul postingan"
+other = "Título de la entrada"
 
 [fedishareDescriptionLabel]
-other = "Deskripsi (dapat diubah pada langkah berikutnya)"
+other = "Descripción (se puede cambiar en el siguiente paso)"
 
 [fedishareUrlLabel]
-other = "Tautan"
+other = "Enlace"
 
 [fedishareInstanceLabel]
-other = "Contoh federal"
+other = "Instancia fediversa"
 
 [fedishareRememberInstance]
-other = "Ingat contoh pada perangkat ini"
+other = "Recordar instancia en este dispositivo"
 
 [fedishareSubmitLabel]
-other = "Lanjutkan ke contoh"
+other = "Continuar a la instancia"
 
 
 # Months
 # Used for `i18nMonth`
 
 [january]
-other = "Januari"
+other = "Enero"
 
 [february]
-other = "Februari"
+other = "Febrero"
 
 [march]
-other = "Maret"
+other = "Marzo"
 
 [april]
-other = "April"
+other = "Abril"
 
 [may]
-other = "Mei"
+other = "Mayo"
 
 [june]
-other = "Juni"
+other = "Junio"
 
 [july]
-other = "Juli"
+other = "Julio"
 
 [august]
-other = "Agustus"
+other = "Agosto"
 
 [september]
-other = "September"
+other = "Septiembre"
 
 [october]
-other = "Oktober"
+other = "Octubre"
 
 [november]
-other = "November"
+other = "Noviembre"
 
 [december]
-other = "Desember"
+other = "Diciembre"
 
 
 # Numbers

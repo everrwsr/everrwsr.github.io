@@ -29,6 +29,14 @@
             {{ partial "third-party/gitalk.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.enableGiscus }}
+            {{ partial "third-party/giscus.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.enableRemark42 }}
+            {{ partial "third-party/remark42.html" . }}
+        {{ end }}
+
     {{ end }}
 {{ end }}
 
@@ -43,20 +51,3 @@
 {{ partial "third-party/busuanzi.html" . }}
 
 {{ partial "custom/script.html" . }}
-<!-- <div>
-    <script src="https://giscus.app/client.js"
-        data-repo="everrwsr/everrwsr.github.io"
-        data-repo-id="R_kgDOIahM0g"
-        data-category="General"
-        data-category-id="DIC_kwDOIahM0s4Carut"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>
-</div> -->

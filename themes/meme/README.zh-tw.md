@@ -8,11 +8,15 @@
 
 ## 簡介
 
-MemE 是一個強大且可高度客制化的 [GoHugo](https://github.com/gohugoio/hugo) 部落格主題，專為個人部落格設計。MemE 主題專注於優雅、簡約、現代，以及程式碼的正確性。同時，希望你將像欣賞一個模因一樣欣賞 MemE，希望你將像分享一個模因一樣分享 MemE，就像你的部落格和文章所做的那樣😝！
+MemE 是一個強大且可高度客制化的 [GoHugo](https://github.com/gohugoio/hugo) 部落格主題，專為個人部落格設計，專注於優雅、簡約、現代，以及程式碼之最佳實踐。
 
 ## 預覽
 
-[![tn.png](https://raw.githubusercontent.com/reuixiy/hugo-theme-meme/master/images/tn.png)](https://themes.gohugo.io/themes/hugo-theme-meme/)
+[![tn.png](https://raw.githubusercontent.com/reuixiy/hugo-theme-meme/master/images/tn.png)](https://io-oi.me/hugo-theme-meme/)
+
+### 文檔
+
+[Hugo 主題 MemE 文檔](https://io-oi.me/tech/documentation-of-hugo-theme-meme/)
 
 ### 瀏覽器支援
 
@@ -72,9 +76,9 @@ https://gohugo.io/getting-started/quick-start/
 
 ## 定製 MemE
 
-MemE 透過 Hugo 管道實現使用 SCSS 生成 CSS，而非靜態的 CSS 檔案，同時提供一個 [`_custom.scss`](https://github.com/reuixiy/hugo-theme-meme/blob/master/https://everrwsr.github.io/tech/assets/scss/custom/_custom.scss) 檔案以供使用者定製。
+MemE 透過 Hugo 管道實現使用 SCSS 生成 CSS，而非靜態的 CSS 檔案，同時提供一個 [`_custom.scss`](https://github.com/reuixiy/hugo-theme-meme/blob/master/assets/scss/custom/_custom.scss) 檔案以供使用者定製。
 
-直接新建一個 `~/blog/https://everrwsr.github.io/tech/assets/scss/custom/_custom.scss` 並將你自己的樣式加入其中，就能覆蓋主題的 `~/blog/themes/meme/https://everrwsr.github.io/tech/assets/scss/custom/_custom.scss` 檔案，且其會正確地被應用。
+直接新建一個 `~/blog/assets/scss/custom/_custom.scss` 並將你自己的樣式加入其中，就能覆蓋主題的 `~/blog/themes/meme/assets/scss/custom/_custom.scss` 檔案，且其會正確地被應用。
 
 事實上，在 Hugo 中你可以覆蓋主題的任何模板，見這個非官方的映象網頁：<https://gohugobrasil.netlify.com/themes/customizing/>
 

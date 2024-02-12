@@ -8,7 +8,7 @@ English |
 
 ## Description
 
-MemE is a powerful and highly customizable [GoHugo](https://github.com/gohugoio/hugo) theme for personal blogs. MemE focuses on elegance, simplicity, modernity, and code correctness. Also, I hope you would enjoy MemE like a meme and share MemE like a meme! Just like what your blog and articles do! 😝
+MemE is a powerful and highly customizable [GoHugo](https://github.com/gohugoio/hugo) theme for personal blogs, which focuses on elegance, simplicity, modernity, and best practices in coding.
 
 ## Preview
 
@@ -72,9 +72,9 @@ For users of other systems, see: https://gohugo.io/getting-started/installing/
 
 ## Customize MemE
 
-MemE uses SCSS via [Hugo Pipes](https://gohugo.io/hugo-pipes/introduction/) to generate CSS instead of static CSS file and provides a [`_custom.scss`](https://github.com/reuixiy/hugo-theme-meme/blob/master/https://everrwsr.github.io/tech/assets/scss/custom/_custom.scss) for customization.
+MemE uses SCSS via [Hugo Pipes](https://gohugo.io/hugo-pipes/introduction/) to generate CSS instead of static CSS file and provides a [`_custom.scss`](https://github.com/reuixiy/hugo-theme-meme/blob/master/assets/scss/custom/_custom.scss) for customization.
 
-Just create a `~/blog/https://everrwsr.github.io/tech/assets/scss/custom/_custom.scss` and add your own styles into this file. Your `_custom.scss` will override `~/blog/themes/meme/https://everrwsr.github.io/tech/assets/scss/custom/_custom.scss` and your custom CSS will be applied correctly.
+Just create a `~/blog/assets/scss/custom/_custom.scss` and add your own styles into this file. Your `_custom.scss` will override `~/blog/themes/meme/assets/scss/custom/_custom.scss` and your custom CSS will be applied correctly.
 
 Actually, you can override any template of theme in Hugo, see this _unofficial mirror_ page: https://gohugobrasil.netlify.com/themes/customizing/
 
@@ -132,7 +132,16 @@ See [#2](https://github.com/reuixiy/hugo-theme-meme/issues/2).
   | outputs                                     | \*                                                                                                       | array                                                                        |
   | aliases                                     | \*                                                                                                       | array                                                                        |
   | markup                                      | \*                                                                                                       | string                                                                       |
-  | meta                                        | set `false` to disable post-meta                                                                         | boolean                                                                      |
+  | hideInHomepage                              | hide this post in homepage posts list                                                                    | boolean, valid for "posts" homepage with `enableHideInHomepage` enabled      |
+  | languageCode                                | add `lang` attribute with this value to `<article>`                                                      | string                                                                       |
+  | meta                                        | set `false` to disable post-meta                                                                         | boolean, override `enablePostMeta` in `config.toml`                          |
+  | displayPublishedDate                        | display published date in post-meta                                                                      | boolean, override `displayPublishedDate` in `config.toml`                    |
+  | displayModifiedDate                         | display modified date in post-meta                                                                       | boolean, override `displayModifiedDate` in `config.toml`                     |
+  | displayExpiryDate                           | display expiry date in post-meta                                                                         | boolean, override `displayExpiryDate` in `config.toml`                       |
+  | displayCategory                             | display category in post-meta                                                                            | boolean, override `displayCategory` in `config.toml`                         |
+  | displayWordCount                            | display word count in post-meta                                                                          | boolean, override `displayWordCount` in `config.toml`                        |
+  | displayReadingTime                          | display reading time in post-meta                                                                        | boolean, override `displayReadingTime` in `config.toml`                      |
+  | displayBusuanziPagePV                       | display page views in post-meta                                                                          | boolean, override `displayBusuanziPagePV` in `config.toml`                   |
   | toc                                         | display TOC                                                                                              | boolean, override `enableTOC` in `config.toml`                               |
   | tocNum                                      | display TOC number                                                                                       | boolean, override `displayTOCNum` in `config.toml`                           |
   | anchor                                      | enable headings anchor                                                                                   | boolean, override `enableHeadingsAnchor` in `config.toml`                    |
