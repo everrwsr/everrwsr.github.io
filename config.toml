@@ -243,17 +243,25 @@ uglyURLs = false
         pre = "internal"
         post = "wpexplorer"
         identifier = "tech"
+
+    [[menu.main]]
+        url = "/archives/"
+        name = "归档"
+        weight = 3
+        pre = "internal"
+        post = "archive"
+
     [[menu.main]]
         pageref = "/about/"
         name = "关于"
-        weight = 3
+        weight = 4
         pre = "internal"
         post = "user-circle"
         identifier = "about"
     [[menu.main]]
         url = "https://everr-nav.netlify.app/"
         name = "nav"
-        weight = 4
+        weight = 5
         pre = "external"
   #  [[menu.main]]
        # url = "https://www.yuque.com/u693751/woygo8"
