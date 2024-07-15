@@ -35,7 +35,14 @@
     {
       "name": "新建博客",
       "id": "92a8669c-b03a-4d28-a746-3f018941c7bc",
-      "commands": [],
+      "commands": [
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "e48bf11c-feb4-4a52-8382-e7d53375c12d",
+          "time": 100
+        }
+      ],
       "runOnStartup": false
     }
   ],
