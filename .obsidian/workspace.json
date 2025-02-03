@@ -23,9 +23,20 @@
             "id": "c92c909f4be4c2a6",
             "type": "leaf",
             "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "content/zh/life/2025年啦.md",
+                "staged": false
+              }
+            }
+          },
+          {
+            "id": "b0d2fa1e2b4d247e",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "content/zh/life/我不知道干什么.md",
+                "file": "_Templates/hugo博客模板.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/zh/life/我不知道干什么.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +125,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/zh/life/我不知道干什么.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +146,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/zh/life/我不知道干什么.md"
-              }
+              "state": {}
             }
           },
           {
@@ -164,11 +171,16 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "command-palette:打开命令面板": false,
-      "templates:插入模板": false
+      "templates:插入模板": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "c92c909f4be4c2a6",
   "lastOpenFiles": [
+    "README.md",
+    "content/zh/life/我不知道干什么.md",
+    "_Templates/hugo博客模板.md",
+    "content/zh/life/2025年啦.md",
     "content/zh/tech/白嫖教程.md",
     "content/zh/life/zotero style设置.md",
     "content/zh/life/pastJustPast.md",
@@ -176,15 +188,12 @@
     "content/zh/life/自勉.md",
     "content/zh/life/超方便给你的代码加上注释简洁版本.md",
     "content/zh/life/_index.md",
-    "content/zh/life/我不知道干什么.md",
-    "README.md",
     "content/zh/life/可以问自己的问题.md",
     "content/zh/tech/顶尖的技术和魔法无异------如何让自己快乐学习编程系列.md",
     "content/zh/tech/个人网站.md",
     "content/zh/life/更好的做笔记.md",
     "content/zh/life/承认痛苦.md",
     "content/zh/life/心灵捕手摘录.md",
-    "_Templates/hugo博客模板.md",
     "_Templates/2.md",
     "content/zh/life/工作.md",
     "content/zh/life/Obsidian+Git 完美维护 Hexo 博客.md",
@@ -194,7 +203,6 @@
     "content/zh/life/xiaoming.md",
     "未命名.md",
     "未命名 1.md",
-    "content/zh/life/测试新的.md",
     "_Templates"
   ]
 }
